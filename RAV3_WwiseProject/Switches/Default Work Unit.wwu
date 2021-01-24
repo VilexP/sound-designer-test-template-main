@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{94EDCBC3-D76A-46FA-ABEE-29F9B2AC4041}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{94EDCBC3-D76A-46FA-ABEE-29F9B2AC4041}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="PC" ID="{A03E7CE5-0E1C-4669-8D1B-7F9692503990}" ShortID="775505457">
+					<ChildrenList>
+						<SwitchGroup Name="isMoving" ID="{777122A0-1361-4FAB-B9D8-9D74801D502F}">
+							<PropertyList>
+								<Property Name="UseGameParameter" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Switch Name="_00_stop" ID="{5299E54F-CEC4-47FC-BDE3-6DF6BB7C90D4}"/>
+								<Switch Name="_01_move" ID="{36537704-060F-4B3E-8B81-87B24CB9E5E8}"/>
+							</ChildrenList>
+							<SwitchOnRTPC>
+								<GameParameterRef Name="Velocity_Magnitude" ID="{B22216FA-6DA3-4253-AAF9-489681FFA5BD}"/>
+								<Curve Name="" ID="{7B7E7FE3-280F-4D1D-9D55-DE47A5DC87F2}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>1</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>1</XPos>
+											<YPos>2</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>5</XPos>
+											<YPos>2</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</SwitchOnRTPC>
+						</SwitchGroup>
+						<SwitchGroup Name="Reactions" ID="{406E1F87-7428-47E7-AE29-066F8D40418A}">
+							<ChildrenList>
+								<Switch Name="Drunk" ID="{26D857F6-9CA2-4237-A91F-6EF60B79FBFF}"/>
+								<Switch Name="Garden" ID="{F109B7BE-1FA5-43C6-A9D5-92363721D64E}"/>
+								<Switch Name="Disco" ID="{EC224C31-BFA8-4854-9C41-D1EE54188EBD}"/>
+								<Switch Name="Home_floor" ID="{AE7B1CAF-C835-40C6-82C7-D066FC96C95E}"/>
+								<Switch Name="Home" ID="{37A0EAD0-71C7-4601-913E-7909BD982ED2}"/>
+								<Switch Name="Empty" ID="{9217C389-E907-4554-A246-C7EC072C06F9}"/>
+							</ChildrenList>
+						</SwitchGroup>
+						<SwitchGroup Name="GHDS" ID="{4823DE97-24EB-4FCF-A9CA-61EA804F120B}">
+							<ChildrenList>
+								<Switch Name="Mute" ID="{6C32E746-6E8F-4CFF-AED8-844B61D36F08}"/>
+								<Switch Name="Play" ID="{09D0AD71-CF7A-4DDD-AF43-CB25953237A4}"/>
+							</ChildrenList>
+						</SwitchGroup>
+					</ChildrenList>
+				</Folder>
+				<SwitchGroup Name="Near_Dogs" ID="{24AF9F9A-597D-4C55-818F-DF8C949E8DAF}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Near" ID="{445EE3B0-B86F-4012-B9A6-B0FB343C6E3E}"/>
+						<Switch Name="Far" ID="{0CE8900D-3B54-4433-A56C-81256C443DA6}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Near_Dogs" ID="{A00E2FB5-B892-43C2-8943-0CD6555F0F6E}"/>
+						<Curve Name="" ID="{406339F2-A0DF-4403-8A24-DA0FEAC92792}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>2.84796</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>10</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="Light_glitch" ID="{1EA86AD4-DBA3-49FF-BB9F-3E123DB12FBB}">
+					<ChildrenList>
+						<Switch Name="Off" ID="{C669E7C2-D163-4D54-8CCD-9CF757790C33}"/>
+						<Switch Name="On" ID="{C68E1006-D718-445E-BC18-2A54A8CD22D3}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

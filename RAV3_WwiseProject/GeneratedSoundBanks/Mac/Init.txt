@@ -1,0 +1,56 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3835786763	Near_Dogs			\Default Work Unit\Near_Dogs	
+	3940648127	isMoving			\Default Work Unit\PC\isMoving	
+
+Switch	ID	Name	Switch Group			Notes
+	1133794587	Near	Near_Dogs			
+	1183803292	Far	Near_Dogs			
+	1071698383	_00_stop	isMoving			
+	1788549707	_01_move	isMoving			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3769334125	In_Buiding			\Default Work Unit\In_Buiding	
+
+State	ID	Name	State Group			Notes
+	645492555	Out	In_Buiding			
+	748895195	None	In_Buiding			
+	1752637612	In	In_Buiding			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Reflect Acoustic Textures\Textures\Concrete	
+	1755085759	Wood_Deep			\Factory Reflect Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Reflect Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Reflect Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Reflect Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Reflect Acoustic Textures\Textures\Carpet	
+	2528658256	Ground			\Factory Reflect Acoustic Textures\Textures\Ground	
+	2637588553	Tile			\Factory Reflect Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Reflect Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Reflect Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Reflect Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Reflect Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Reflect Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	243379636	Reflect			\Default Work Unit\Master Audio Bus\Reflect	
+	278887670	Garden			\Default Work Unit\Master Audio Bus\Garden	
+	337909779	Party_Room			\Default Work Unit\Master Audio Bus\Party_Room	
+	1984446739	Room_Behind			\Default Work Unit\Master Audio Bus\Room_Behind	
+	2077253480	Room			\Default Work Unit\Master Audio Bus\Room	
+
+Effect plug-ins	ID	Name	Type				Notes
+	346397626	Wwise_Peak_Limiter_(Custom)	Wwise Peak Limiter			
+	454112885	Wwise_Convolution_Reverb_(Custom)	Wwise Convolution Reverb			
+	1034847628	Wwise_Reflect_(Custom)	Wwise Reflect			
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

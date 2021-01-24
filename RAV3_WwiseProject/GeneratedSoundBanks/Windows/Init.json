@@ -1,0 +1,66 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "H:\\learn unity\\Rav3 TZ\\sound-designer-test-template-main\\RAV3_WwiseProject\\",
+   "SourceFilesRoot": "H:\\learn unity\\Rav3 TZ\\sound-designer-test-template-main\\RAV3_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "H:\\learn unity\\Rav3 TZ\\sound-designer-test-template-main\\RAV3_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "H:\\learn unity\\Rav3 TZ\\sound-designer-test-template-main\\RAV3_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "1881805899",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "243379636",
+      "Name": "Reflect",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+      "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+     },
+     {
+      "Id": "278887670",
+      "Name": "Garden",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Garden",
+      "GUID": "{E5CA3DD3-A20B-4AD9-9116-23E894C2A99D}"
+     },
+     {
+      "Id": "337909779",
+      "Name": "Party_Room",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Party_Room",
+      "GUID": "{ED30F0CF-94DB-4D0E-99A8-2C4A6AEA0914}"
+     },
+     {
+      "Id": "1984446739",
+      "Name": "Room_Behind",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room_Behind",
+      "GUID": "{28192737-BA61-4E20-A01C-0FCA69064FA9}"
+     },
+     {
+      "Id": "2077253480",
+      "Name": "Room",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room",
+      "GUID": "{076F7FD8-8966-4301-AD53-D7F54C2186DF}"
+     }
+    ],
+    "ExcludedMemoryFiles": [
+     {
+      "Id": "614701443",
+      "Language": "SFX",
+      "ShortName": "Mountains, Field, Few Houses 50m.wav",
+      "Path": "Plugins\\Wwise Convolution Reverb\\Mountains, Field, Few Houses 50m_0A7A2C0D.wem"
+     }
+    ]
+   }
+  ]
+ }
+}

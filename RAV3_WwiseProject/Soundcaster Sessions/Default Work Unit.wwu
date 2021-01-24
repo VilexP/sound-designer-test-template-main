@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5E1421D5-497B-435D-B1D2-763B07F4AC32}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{5E1421D5-497B-435D-B1D2-763B07F4AC32}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{DD499AE2-835F-4284-9A4A-3534B46897D8}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Panelka" ID="{A5E80095-7B11-485A-B518-24A88C41B08D}" WorkUnitID="{160BAA03-C0E3-48B4-BF43-9C814A94ECCB}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Water_drops" ID="{C4B84292-BD7D-456E-8547-8CE2EC8813A6}" WorkUnitID="{160BAA03-C0E3-48B4-BF43-9C814A94ECCB}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lamps" ID="{1AEEC2CD-78D7-4F19-9B80-ED722340DE81}" WorkUnitID="{160BAA03-C0E3-48B4-BF43-9C814A94ECCB}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Reactions" ID="{C612F567-E811-4F6E-93CE-3E1028033A49}" WorkUnitID="{160BAA03-C0E3-48B4-BF43-9C814A94ECCB}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="_1st_Floor_Babka" ID="{98F7A356-F1D9-4696-AEC0-414A4D842F33}" WorkUnitID="{160BAA03-C0E3-48B4-BF43-9C814A94ECCB}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Velocity_Magnitude" ID="{B22216FA-6DA3-4253-AAF9-489681FFA5BD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Near_Dogs" ID="{A00E2FB5-B892-43C2-8943-0CD6555F0F6E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PC_Hight" ID="{5FFBB9C2-67BE-4EC4-B645-CCE4B2A4F125}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="In" ID="{74EAD98C-38AD-47E7-ABB1-64CB8A66A99D}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Disco" ID="{EC224C31-BFA8-4854-9C41-D1EE54188EBD}"/>
+						<CurrentSwitchRef Name="Off" ID="{C669E7C2-D163-4D54-8CCD-9CF757790C33}"/>
+						<CurrentSwitchRef Name="Far" ID="{0CE8900D-3B54-4433-A56C-81256C443DA6}"/>
+						<CurrentSwitchRef Name="_00_stop" ID="{5299E54F-CEC4-47FC-BDE3-6DF6BB7C90D4}"/>
+						<CurrentSwitchRef Name="Play" ID="{09D0AD71-CF7A-4DDD-AF43-CB25953237A4}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

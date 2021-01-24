@@ -1,0 +1,2086 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2438B59B-F83B-472A-8B52-9452FE50E18E}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Props" ID="{2438B59B-F83B-472A-8B52-9452FE50E18E}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Behind_Doors" ID="{8459F3E4-A4EB-4995-A0B4-A4CD16DF3021}" ShortID="215841261">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="GameAuxSendVolume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReflectionsVolume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Sounds" ID="{7A96BDDC-6204-4FF8-9185-72475449750A}" WorkUnitID="{09DB0D29-C6C6-402C-92EA-3A325787A956}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Party" ID="{78402F8D-BC85-4D22-81D5-7208D862927B}" ShortID="416298182">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>43</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEarlyReflections" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PreFetchLength" Type="int16">
+									<ValueList>
+										<Value>200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="ReflectionsVolume" Type="Real64">
+									<ValueList>
+										<Value>-23</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{6350006A-C080-4BB9-982D-51ADB9DC0AC2}" ShortID="568922770">
+											<PropertyList>
+												<Property Name="ConeAttenuation" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ConeHighPassFilterValue" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ConeInnerAngle" Type="int32" Value="110"/>
+												<Property Name="ConeLowPassFilterValue" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ConeOuterAngle" Type="int32" Value="260"/>
+												<Property Name="RadiusMax" Type="Real64" Value="9"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{F52ACE99-B98F-469C-BF17-62D7679CC33B}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1.57082142857143</XPos>
+																	<YPos>-0</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>3.09613</XPos>
+																	<YPos>-16.12836</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>5.48651</XPos>
+																	<YPos>-24.0113</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Exp3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>8.26569</XPos>
+																	<YPos>-14.64113</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Exp3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>9</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{D3C24526-AE1D-4EFB-93EF-A23407D922C9}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>0.522729</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>2.522727</XPos>
+																	<YPos>47</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>4.689396</XPos>
+																	<YPos>76</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>9</XPos>
+																	<YPos>87</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{AB09E6B3-CBD3-4A1A-AC1F-03593621B81E}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>100</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>1.5757575</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>9</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+								<Reference Name="ReflectionsAuxSend">
+									<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Room" ID="{076F7FD8-8966-4301-AD53-D7F54C2186DF}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Like Dota game Robot 2020 10 28" ID="{BD9CAB96-C56C-46EA-AB1B-D53D926974D7}">
+									<Language>SFX</Language>
+									<AudioFile>Behin Doors\Like Dota game Robot 2020 10 28.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="428129825"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Like Dota game Robot 2020 10 28" ID="{BD9CAB96-C56C-46EA-AB1B-D53D926974D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Trash Chute" ID="{FCC4F933-44FC-4E91-B9C0-535186820743}" ShortID="1030579228">
+							<PropertyList>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>42</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Trash Chute by krb21 Id-118619" ID="{595E691B-7710-4A2A-B0A8-C224FB073DCF}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0545779725866128"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.558374642616885"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.75748349730911"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Props\Trash Chute by krb21 Id-118619.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="348820655"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Trash Chute by krb21 Id-118619" ID="{595E691B-7710-4A2A-B0A8-C224FB073DCF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="TV" ID="{6F659FCF-FF73-477C-818F-8C9F10C85F1E}" ShortID="579254700">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEarlyReflections" Type="bool" Value="True"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="ReflectionsVolume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{B25272EF-CB2B-46D8-9BF8-937EE6A860F1}">
+										<Attenuation Name="Props (Custom)" ID="{28D07DC2-1813-4856-8B6B-6AA45D387AF1}" ShortID="100831467">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="4"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{905DC9B3-B10E-432A-9367-661C6BD8AA9D}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>4</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{81D357B1-8CDA-4938-BA7F-5A7CE84875E1}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>4</XPos>
+																	<YPos>50</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None">
+														<Curve Name="HighPassFilter" ID="{FB60BD47-8FA4-4AB7-9E7E-F1848D560A0D}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>4</XPos>
+																	<YPos>100</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{E4DF3D8C-26F4-4C79-82AE-F3DB88A87981}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>100</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log3</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>0.2862</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>4</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+								<Reference Name="ReflectionsAuxSend">
+									<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Украина_ ни слова на русском_ Время покажет_ Фрагмент выпуска от 15_01_2021" ID="{C66580EE-F7FA-4775-B467-26A086F2D7E0}" ShortID="512167651">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>62</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="RenderEffect0" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{252DC409-FC01-4050-B69D-086A9081406A}" ShortID="979601484" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<PropertyList>
+														<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+														<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+														<Property Name="FrequencyBand1" Type="Real32" Value="132"/>
+														<Property Name="FrequencyBand3" Type="Real32" Value="218"/>
+														<Property Name="GainBand1" Type="Real32" Value="6.5"/>
+														<Property Name="GainBand2" Type="Real32" Value="-24"/>
+														<Property Name="GainBand3" Type="Real32" Value="-24"/>
+														<Property Name="OnOffBand2" Type="bool" Value="False"/>
+														<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Room_Behind" ID="{28192737-BA61-4E20-A01C-0FCA69064FA9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Украина_ ни слова на русском_ Время покажет_ Фрагмент выпуска от 15_01_2021" ID="{AF3C6F93-6CD8-4610-93F8-DAFE3EBAB89C}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="359.796213925328"/>
+												<Property Name="TrimEnd" Type="Real64" Value="593.177541876892"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Украина_ ни слова на русском. Время покажет. Фрагмент выпуска от 15.01.2021.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="803249482"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Украина_ ни слова на русском_ Время покажет_ Фрагмент выпуска от 15_01_2021" ID="{AF3C6F93-6CD8-4610-93F8-DAFE3EBAB89C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Украина_ ни слова на русском_ Время покажет_ Фрагмент выпуска от 15_01_2021" ID="{C66580EE-F7FA-4775-B467-26A086F2D7E0}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<SwitchContainer Name="Dogs" ID="{B57C154A-2311-4FAC-8355-1FA499D7138E}" ShortID="569574033">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>58</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEarlyReflections" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="ReflectionsVolume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Props" ID="{B25272EF-CB2B-46D8-9BF8-937EE6A860F1}" WorkUnitID="{09DB0D29-C6C6-402C-92EA-3A325787A956}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Far" ID="{0CE8900D-3B54-4433-A56C-81256C443DA6}" WorkUnitID="{94EDCBC3-D76A-46FA-ABEE-29F9B2AC4041}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+								<Reference Name="ReflectionsAuxSend">
+									<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Near_Dogs" ID="{24AF9F9A-597D-4C55-818F-DF8C949E8DAF}" WorkUnitID="{94EDCBC3-D76A-46FA-ABEE-29F9B2AC4041}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Room_Behind" ID="{28192737-BA61-4E20-A01C-0FCA69064FA9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="big" ID="{F3D70317-5D7D-4F86-8FE3-64506A98B1F1}" ShortID="307832096">
+									<PropertyList>
+										<Property Name="GameAuxSendVolume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{5928378D-A39D-44C3-A7E3-C9547A9110D4}" ShortID="227240730">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Near_Dogs" ID="{A00E2FB5-B892-43C2-8943-0CD6555F0F6E}" WorkUnitID="{AA160423-4E80-457D-87B8-7F14C02546AE}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{9E670189-E442-4DED-BC82-33CC8707D78E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>2</XPos>
+																<YPos>-192</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>-192</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FCCDF09C-FBBF-4A39-8E63-9EAFF62D873C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="ReflectionsVolume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582" ID="{55094CA2-DFBC-4C95-AEE6-6BB5248DF0B5}" ShortID="847125731">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582" ID="{C6027521-4898-480A-84DD-317DA0185FBB}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Animal, Dog, Golden Retriever, Barks, Whimper SND0582.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="902384614"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582" ID="{C6027521-4898-480A-84DD-317DA0185FBB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582 1" ID="{FD5D9988-0430-4A46-A7AD-6EE878065E45}" ShortID="928669599">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582 1" ID="{1D8E7D5F-5438-4127-8E3D-4478DBF99033}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="334549146"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582 1" ID="{1D8E7D5F-5438-4127-8E3D-4478DBF99033}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582 2" ID="{3718B6C0-3E26-4B13-B3E0-75BEFF3BD46E}" ShortID="879929636">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582 2" ID="{9CCE0FE4-576D-486A-96B7-833DFA0A6665}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="592807539"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582 2" ID="{9CCE0FE4-576D-486A-96B7-833DFA0A6665}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582 3" ID="{84EF6EA9-D892-4DE6-AD79-83C5676E2168}" ShortID="415136819">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582 3" ID="{C9E6DC0D-85F9-4F5E-AAF3-74DEEFF9A627}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="514562875"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582 3" ID="{C9E6DC0D-85F9-4F5E-AAF3-74DEEFF9A627}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582 4" ID="{8325E4E8-9079-4060-A116-209C83C24436}" ShortID="515723348">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582 4" ID="{BB454554-5E6A-425E-AF67-7D58372D24B4}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="320220072"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Animal, Dog, Golden Retriever, Barks, Whimper SND0582 4" ID="{BB454554-5E6A-425E-AF67-7D58372D24B4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="smal2" ID="{1F2DCE47-9444-4C2D-9992-64E4B0146992}" ShortID="319022815">
+									<PropertyList>
+										<Property Name="GameAuxSendVolume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{8D57E2D7-072A-4B5B-9A9A-1FC3FC79C8FE}" ShortID="789879421">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Near_Dogs" ID="{A00E2FB5-B892-43C2-8943-0CD6555F0F6E}" WorkUnitID="{AA160423-4E80-457D-87B8-7F14C02546AE}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{78EA8574-DFAD-408F-839B-2837B1B6E5AB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>2</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>3</XPos>
+																<YPos>-192</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>-192</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1E91F809-32EE-4931-A971-44E63055B1D3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="ReflectionsVolume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312" ID="{57627170-2C64-4915-B5ED-FC7E9474F164}" ShortID="1003972858">
+											<PropertyList>
+												<Property Name="GameAuxSendVolume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312" ID="{9C6501FB-7CCD-433D-A1CF-89033EAD0AFE}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="397223699"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312" ID="{9C6501FB-7CCD-433D-A1CF-89033EAD0AFE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312 1" ID="{03984907-7DF4-485A-8A6D-73BE22C2307B}" ShortID="578070453">
+											<PropertyList>
+												<Property Name="GameAuxSendVolume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312 1" ID="{11121C0C-B061-4934-ACA9-725D9C61C721}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="496370755"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312 1" ID="{11121C0C-B061-4934-ACA9-725D9C61C721}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="small1" ID="{B6EFC5FE-F7D7-4941-B1C8-6D1107C0AFBB}" ShortID="170155830">
+									<PropertyList>
+										<Property Name="GameAuxSendVolume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A9420F43-4B68-4812-8945-0B7E35B3FEEA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-0.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+											<RTPCList>
+												<RTPC Name="" ID="{54F6DCC3-96A5-4E05-B7F8-A571B6828FDF}" ShortID="935528009">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Near_Dogs" ID="{A00E2FB5-B892-43C2-8943-0CD6555F0F6E}" WorkUnitID="{AA160423-4E80-457D-87B8-7F14C02546AE}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{A1A794AC-F1C6-4F38-A211-03F9D24CD611}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>2.78689</XPos>
+																<YPos>3</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>10</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="ReflectionsVolume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Animal, Dogs, Barking, Small 1 SND14613" ID="{D95284E8-A3F2-4F25-B89D-2924F010002F}" ShortID="375850356">
+											<PropertyList>
+												<Property Name="GameAuxSendVolume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Animal, Dogs, Barking, Small 1 SND14613" ID="{652BD4F0-AEF6-4021-A6A5-96585AE0EEBE}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Animal, Dogs, Barking, Small 1 SND14613.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="574197304"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Animal, Dogs, Barking, Small 1 SND14613" ID="{652BD4F0-AEF6-4021-A6A5-96585AE0EEBE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Animal, Dogs, Barking, Small 2 SND14612" ID="{48A07C7F-B80A-43EE-8739-1CC944CB679C}" ShortID="169168330">
+											<PropertyList>
+												<Property Name="GameAuxSendVolume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Animal, Dogs, Barking, Small 2 SND14612" ID="{652563B8-BF80-4895-9AB3-E9E4756095BC}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Animal, Dogs, Barking, Small 2 SND14612.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="170847467"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Animal, Dogs, Barking, Small 2 SND14612" ID="{652563B8-BF80-4895-9AB3-E9E4756095BC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Animal, Dogs, Barking, Small 2 SND14612 1" ID="{B92075D8-2F13-4B53-9DFC-8B84A63EA340}" ShortID="96293362">
+											<PropertyList>
+												<Property Name="GameAuxSendVolume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Animal, Dogs, Barking, Small 2 SND14612 1" ID="{310ADB6F-414C-4787-A87E-1F46D8FF8E43}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Animal, Dogs, Barking, Small 2 SND14612 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="75581377"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Animal, Dogs, Barking, Small 2 SND14612 1" ID="{310ADB6F-414C-4787-A87E-1F46D8FF8E43}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Animal, Dogs, Barking, Small 4 SND14610" ID="{D1F35985-EEF8-4106-A5D6-0D8444CEE6C5}" ShortID="731161865">
+											<PropertyList>
+												<Property Name="GameAuxSendVolume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Animal, Dogs, Barking, Small 4 SND14610" ID="{324C3497-0546-4BDF-B55C-4AC54C9711F4}">
+													<Language>SFX</Language>
+													<AudioFile>Ambience\Animal, Dogs, Barking, Small 4 SND14610.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="178920862"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Animal, Dogs, Barking, Small 4 SND14610" ID="{324C3497-0546-4BDF-B55C-4AC54C9711F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Silence" ID="{8DE55488-71D4-4442-A825-35DC9877525A}" ShortID="947600687">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Wwise Silence" ID="{B48AF374-59C6-4956-8615-FA135580399A}" ShortID="625042198" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wwise Silence" ID="{B48AF374-59C6-4956-8615-FA135580399A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="big" ID="{F3D70317-5D7D-4F86-8FE3-64506A98B1F1}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>1</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>0.5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="smal2" ID="{1F2DCE47-9444-4C2D-9992-64E4B0146992}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>1</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>0.5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Silence" ID="{8DE55488-71D4-4442-A825-35DC9877525A}"/>
+										<PropertyList>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>0.5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="small1" ID="{B6EFC5FE-F7D7-4941-B1C8-6D1107C0AFBB}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>1</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>0.5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Far" ID="{0CE8900D-3B54-4433-A56C-81256C443DA6}"/>
+										<ItemList>
+											<ItemRef Name="Silence" ID="{8DE55488-71D4-4442-A825-35DC9877525A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Near" ID="{445EE3B0-B86F-4012-B9A6-B0FB343C6E3E}"/>
+										<ItemList>
+											<ItemRef Name="big" ID="{F3D70317-5D7D-4F86-8FE3-64506A98B1F1}"/>
+											<ItemRef Name="smal2" ID="{1F2DCE47-9444-4C2D-9992-64E4B0146992}"/>
+											<ItemRef Name="small1" ID="{B6EFC5FE-F7D7-4941-B1C8-6D1107C0AFBB}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<SwitchContainer Name="Lamps" ID="{823D2313-DED2-4354-BD76-82B7F1D94F36}" ShortID="650300971">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="GameAuxSendVolume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{CF8A0C4D-8D90-42A5-9358-46D4B0328CAC}" ShortID="729248399">
+									<PropertyList>
+										<Property Name="ConeInnerAngle" Type="int32" Value="130"/>
+										<Property Name="ConeLowPassFilterValue" Type="int32">
+											<ValueList>
+												<Value>48</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ConeOuterAngle" Type="int32" Value="280"/>
+										<Property Name="RadiusMax" Type="Real64" Value="4"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{42AE4469-E305-4148-AA65-751CC8414F80}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>0.78453</XPos>
+															<YPos>-13.41951</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Exp2</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>4</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{54B62488-5A44-4E86-A261-2E6506631F8E}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>4</XPos>
+															<YPos>36</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="Spread" ID="{48F80CCD-83DA-4FE8-8DFE-4962F1D5D2B1}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="1"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>100</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>0.76094</XPos>
+															<YPos>0</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>4</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="On" ID="{C68E1006-D718-445E-BC18-2A54A8CD22D3}" WorkUnitID="{94EDCBC3-D76A-46FA-ABEE-29F9B2AC4041}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Light_glitch" ID="{1EA86AD4-DBA3-49FF-BB9F-3E123DB12FBB}" WorkUnitID="{94EDCBC3-D76A-46FA-ABEE-29F9B2AC4041}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Glitch" ID="{17F3990E-40BD-4F42-8A6E-D1583E337D6A}" ShortID="190115206">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220" ID="{47834FB7-824E-4D4C-8C50-AEA6F3260B95}" ShortID="215869829">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220" ID="{D2473784-3F00-437B-B045-61AF65E4CA13}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0016704717457114"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.113777686680121"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Lamps\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="693806920"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220" ID="{D2473784-3F00-437B-B045-61AF65E4CA13}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 1" ID="{579BF5CB-5108-4086-AB47-53423DFF1199}" ShortID="984789460">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 1" ID="{550DFEE3-784C-4606-BC65-76858994CF46}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0134778632694248"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0620647283888328"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0148090102589976"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.12096798267743"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Lamps\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="394936479"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 1" ID="{550DFEE3-784C-4606-BC65-76858994CF46}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 2" ID="{82213E60-7FB7-45EE-8E93-AD5780DC42C9}" ShortID="452176936">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 2" ID="{EBE6E490-D964-43EF-9A9E-28D80C1D8FDE}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00948517911200808"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0887715480995627"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Lamps\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="915303527"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 2" ID="{EBE6E490-D964-43EF-9A9E-28D80C1D8FDE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neon Lamp, Switch On, Hum by Kinoton Id-351430" ID="{5D013B53-BFCA-44AE-B8C9-E23E250DFC8E}" ShortID="865991165">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neon Lamp, Switch On, Hum by Kinoton Id-351430" ID="{CCBCD0AE-B710-4C51-8667-81192F055A77}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00730491086444669"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0697879877228389"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-5.4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Lamps\Neon Lamp, Switch On, Hum by Kinoton Id-351430.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="326941"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neon Lamp, Switch On, Hum by Kinoton Id-351430" ID="{CCBCD0AE-B710-4C51-8667-81192F055A77}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neon Lamp, Switch On, Hum by Kinoton Id-351430 2" ID="{09EEDD8A-BD77-4ECA-A378-EE71BC6AEBFA}" ShortID="497132777">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neon Lamp, Switch On, Hum by Kinoton Id-351430 2" ID="{C9AE938D-20B0-45CA-903E-359B075EAE7C}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0040431802892701"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0956300033636058"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Lamps\Neon Lamp, Switch On, Hum by Kinoton Id-351430 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="375857017"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neon Lamp, Switch On, Hum by Kinoton Id-351430 2" ID="{C9AE938D-20B0-45CA-903E-359B075EAE7C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neon Lamp, Switch On, Hum by Kinoton Id-351430 3" ID="{D86819C8-B0C1-4EBC-90F5-A0E8446C3E18}" ShortID="427933002">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neon Lamp, Switch On, Hum by Kinoton Id-351430 3" ID="{4D264953-FD16-4D6E-9920-CF49D1FC1F9D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00049949545913219"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.00586074672048436"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Lamps\Neon Lamp, Switch On, Hum by Kinoton Id-351430 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="922632205"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neon Lamp, Switch On, Hum by Kinoton Id-351430 3" ID="{4D264953-FD16-4D6E-9920-CF49D1FC1F9D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neon Lamp, Switch On, Hum by Kinoton Id-351430 4" ID="{4B47C765-5C97-486E-9214-1D028C0830CB}" ShortID="41394455">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neon Lamp, Switch On, Hum by Kinoton Id-351430 4" ID="{CD0604EC-5B9D-40C7-8219-924A940CCC15}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.000472103094517323"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0104418096199125"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Lamps\Neon Lamp, Switch On, Hum by Kinoton Id-351430 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1012963946"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neon Lamp, Switch On, Hum by Kinoton Id-351430 4" ID="{CD0604EC-5B9D-40C7-8219-924A940CCC15}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Silence" ID="{028EF7B3-6FB5-459B-8871-CE8ABF1489E6}" ShortID="642435917">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Silence" ID="{1EA67EB0-91DB-44FA-A5FD-C6507EC14A79}" ShortID="935298730" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+									<PropertyList>
+										<Property Name="Length" Type="Real32" Value="0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Silence" ID="{1EA67EB0-91DB-44FA-A5FD-C6507EC14A79}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Neon" ID="{ABD3D5EF-029D-45ED-8EA9-B4A99680DF6C}" ShortID="1003851297">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Lamps - Designed - 04 - becquerel - aXL" ID="{2007C11B-65C2-426E-90E9-F3E777C8EC12}" ShortID="830180133">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="PreFetchLength" Type="int16">
+											<ValueList>
+												<Value>200</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{3B650E65-8072-47B7-97AD-86A5C2AF2661}" ShortID="989333119">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="4"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{3554D6AE-A6D4-410A-885E-6D2691085EC9}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log1</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>0.99327</XPos>
+																			<YPos>-11.47786</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>SCurve</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>4</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{D55095E2-B01D-462D-AF7D-C9B1A1A1D5A7}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>4</XPos>
+																			<YPos>36</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{C798DCD5-E52D-434F-A4D3-DA160D99E38F}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>Log3</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>0.76094</XPos>
+																			<YPos>0</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>4</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lamps - Designed - 04 - becquerel - aXL" ID="{76F0BB33-D529-47A4-B888-F5601C891002}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.534577084034356"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="14.803229061554"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience\Lamps\Lamps - Designed - 04 - becquerel - aXL.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="685593506"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lamps - Designed - 04 - becquerel - aXL" ID="{76F0BB33-D529-47A4-B888-F5601C891002}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Lamps - Designed - 04 - becquerel - aXL" ID="{2007C11B-65C2-426E-90E9-F3E777C8EC12}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Glitch" ID="{17F3990E-40BD-4F42-8A6E-D1583E337D6A}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Silence" ID="{028EF7B3-6FB5-459B-8871-CE8ABF1489E6}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Neon" ID="{ABD3D5EF-029D-45ED-8EA9-B4A99680DF6C}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="On" ID="{C68E1006-D718-445E-BC18-2A54A8CD22D3}"/>
+								<ItemList>
+									<ItemRef Name="Glitch" ID="{17F3990E-40BD-4F42-8A6E-D1583E337D6A}"/>
+									<ItemRef Name="Neon" ID="{ABD3D5EF-029D-45ED-8EA9-B4A99680DF6C}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Off" ID="{C669E7C2-D163-4D54-8CCD-9CF757790C33}"/>
+								<ItemList>
+									<ItemRef Name="Silence" ID="{028EF7B3-6FB5-459B-8871-CE8ABF1489E6}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<RandomSequenceContainer Name="Door" ID="{EFAEAF8D-8AAE-4008-86BF-19F00BE0A32E}" ShortID="441035676">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="ReflectionsVolume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="64"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom CreatedFrom="{B25272EF-CB2B-46D8-9BF8-937EE6A860F1}">
+								<Attenuation Name="Props (Custom)" ID="{04A255FA-3B45-48DD-A3C1-67E58ADC8C0C}" ShortID="717986645">
+									<PropertyList>
+										<Property Name="ConeAttenuation" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ConeInnerAngle" Type="int32" Value="115"/>
+										<Property Name="ConeLowPassFilterValue" Type="int32">
+											<ValueList>
+												<Value>56</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ConeOuterAngle" Type="int32" Value="275"/>
+										<Property Name="ConeUse" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RadiusMax" Type="Real64" Value="5"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{2BBA2B2B-F507-46A6-AE17-B3555A903925}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>SCurve</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>5</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{493DF88E-2761-4C71-9D4B-6B1788A59291}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>SCurve</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>5</XPos>
+															<YPos>50</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="HighPassFilter" ID="{5BF51131-C6ED-46B7-995D-24A5E36614FE}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>5</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="Spread" ID="{8FBC6858-966C-4CC0-9173-A7553896877B}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="1"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>100</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>0.35775</XPos>
+															<YPos>0</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>5</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Room" ID="{076F7FD8-8966-4301-AD53-D7F54C2186DF}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Open Door" ID="{4AC23965-941E-4C82-B1DE-E6CFBCA7C4D0}" ShortID="867126454">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="ReflectionsVolume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Props" ID="{B25272EF-CB2B-46D8-9BF8-937EE6A860F1}" WorkUnitID="{09DB0D29-C6C6-402C-92EA-3A325787A956}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+								<Reference Name="ReflectionsAuxSend">
+									<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033" ID="{5E173244-E9BD-458F-BDA3-2694D0E905C1}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0789987293519695"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.266620711562897"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.141539390088945"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.770237611181702"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Props\Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="967829851"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033" ID="{5E173244-E9BD-458F-BDA3-2694D0E905C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Open Door_01" ID="{94BBDAA3-0983-4F3C-B393-98E6A86B7954}" ShortID="119393976">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis 7 auto med" ID="{ECBDBE5D-D68D-43D7-8A2A-B6AB4B4E7956}" WorkUnitID="{8FC1BC2F-14BC-48CB-9DD4-1D917E13B2C4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+								<Reference Name="ReflectionsAuxSend">
+									<ObjectRef Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}" WorkUnitID="{7EAE613D-3627-442E-8066-74AAC05E251C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033 1" ID="{186ADE8F-7725-4F96-B69C-6A69D5134B9F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0722658831003812"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.536832274459975"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.00311928208386"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Props\Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="892620598"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033 1" ID="{186ADE8F-7725-4F96-B69C-6A69D5134B9F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Open Door" ID="{4AC23965-941E-4C82-B1DE-E6CFBCA7C4D0}"/>
+						<ItemRef Name="Open Door_01" ID="{94BBDAA3-0983-4F3C-B393-98E6A86B7954}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,1715 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "H:\\learn unity\\Rav3 TZ\\sound-designer-test-template-main\\RAV3_WwiseProject\\",
+   "SourceFilesRoot": "H:\\learn unity\\Rav3 TZ\\sound-designer-test-template-main\\RAV3_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "H:\\learn unity\\Rav3 TZ\\sound-designer-test-template-main\\RAV3_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "H:\\learn unity\\Rav3 TZ\\sound-designer-test-template-main\\RAV3_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4056684167",
+    "GUID": "{E6632366-0FF3-4B4D-9377-4B1374EAF91D}",
+    "Language": "SFX",
+    "Hash": "3784262461",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
+    "ShortName": "Master",
+    "Path": "Master.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4049474665",
+      "Name": "_1st_Floor_Babka",
+      "ObjectPath": "\\Events\\Default Work Unit\\VO\\_1st_Floor_Babka",
+      "GUID": "{98F7A356-F1D9-4696-AEC0-414A4D842F33}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.500000",
+      "DurationMax": "9.500000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "265532728",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\1st_floor_for_babla 2.wav",
+        "Path": "SFX\\PC\\VO\\1st_floor_for_babla 2_0C3FDCAA.wem"
+       },
+       {
+        "Id": "444669226",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\1st_floor_babla.wav",
+        "Path": "SFX\\PC\\VO\\1st_floor_babla_0C3FDCAA.wem"
+       },
+       {
+        "Id": "968214745",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\1st_floor_for_babla.wav",
+        "Path": "SFX\\PC\\VO\\1st_floor_for_babla_0C3FDCAA.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       },
+       {
+        "Id": "2077253480",
+        "Name": "Room",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room",
+        "GUID": "{076F7FD8-8966-4301-AD53-D7F54C2186DF}"
+       }
+      ]
+     },
+     {
+      "Id": "2012068516",
+      "Name": "Dogs",
+      "ObjectPath": "\\Events\\Default Work Unit\\Behind Doors\\Dogs",
+      "GUID": "{55D8D392-A46D-451F-8CDA-9DE09507221D}",
+      "MaxAttenuation": "5.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "75581377",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Animal, Dogs, Barking, Small 2 SND14612 1.wav",
+        "Path": "SFX\\Ambience\\Animal, Dogs, Barking, Small 2 SND14612 1_0C3FDCAA.wem"
+       },
+       {
+        "Id": "170847467",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Animal, Dogs, Barking, Small 2 SND14612.wav",
+        "Path": "SFX\\Ambience\\Animal, Dogs, Barking, Small 2 SND14612_0C3FDCAA.wem"
+       },
+       {
+        "Id": "178920862",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Animal, Dogs, Barking, Small 4 SND14610.wav",
+        "Path": "SFX\\Ambience\\Animal, Dogs, Barking, Small 4 SND14610_0C3FDCAA.wem"
+       },
+       {
+        "Id": "320220072",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 4.wav",
+        "Path": "SFX\\Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 4_0C3FDCAA.wem"
+       },
+       {
+        "Id": "334549146",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 1.wav",
+        "Path": "SFX\\Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 1_0C3FDCAA.wem"
+       },
+       {
+        "Id": "397223699",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312.wav",
+        "Path": "SFX\\Ambience\\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312_0C3FDCAA.wem"
+       },
+       {
+        "Id": "496370755",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312 1.wav",
+        "Path": "SFX\\Ambience\\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312 1_0C3FDCAA.wem"
+       },
+       {
+        "Id": "514562875",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 3.wav",
+        "Path": "SFX\\Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 3_0C3FDCAA.wem"
+       },
+       {
+        "Id": "574197304",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Animal, Dogs, Barking, Small 1 SND14613.wav",
+        "Path": "SFX\\Ambience\\Animal, Dogs, Barking, Small 1 SND14613_0C3FDCAA.wem"
+       },
+       {
+        "Id": "592807539",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 2.wav",
+        "Path": "SFX\\Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 2_0C3FDCAA.wem"
+       },
+       {
+        "Id": "902384614",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582.wav",
+        "Path": "SFX\\Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582_0C3FDCAA.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{0CE8900D-3B54-4433-A56C-81256C443DA6}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{445EE3B0-B86F-4012-B9A6-B0FB343C6E3E}",
+        "Media": [
+         {
+          "Id": "320220072"
+         },
+         {
+          "Id": "334549146"
+         },
+         {
+          "Id": "514562875"
+         },
+         {
+          "Id": "592807539"
+         },
+         {
+          "Id": "902384614"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{445EE3B0-B86F-4012-B9A6-B0FB343C6E3E}",
+        "Media": [
+         {
+          "Id": "397223699"
+         },
+         {
+          "Id": "496370755"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{445EE3B0-B86F-4012-B9A6-B0FB343C6E3E}",
+        "Media": [
+         {
+          "Id": "75581377"
+         },
+         {
+          "Id": "170847467"
+         },
+         {
+          "Id": "178920862"
+         },
+         {
+          "Id": "574197304"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       },
+       {
+        "Id": "1984446739",
+        "Name": "Room_Behind",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room_Behind",
+        "GUID": "{28192737-BA61-4E20-A01C-0FCA69064FA9}"
+       }
+      ]
+     },
+     {
+      "Id": "3065830871",
+      "Name": "drunk_hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\NPC\\drunk_hit",
+      "GUID": "{8802D800-0289-4E52-A65A-A154D8568508}",
+      "MaxAttenuation": "5.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.125561",
+      "DurationMax": "3.355139",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "553634353",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 2.wav",
+        "Path": "SFX\\PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 2_CB4E843A.wem"
+       },
+       {
+        "Id": "577455993",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 3.wav",
+        "Path": "SFX\\PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 3_3DBD4B95.wem"
+       },
+       {
+        "Id": "772920992",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 4.wav",
+        "Path": "SFX\\PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 4_599F531A.wem"
+       },
+       {
+        "Id": "802170934",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 1.wav",
+        "Path": "SFX\\PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 1_47171854.wem"
+       },
+       {
+        "Id": "904606069",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801.wav",
+        "Path": "SFX\\PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801_FC3F266F.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       }
+      ]
+     },
+     {
+      "Id": "2486120673",
+      "Name": "drunk_snore",
+      "ObjectPath": "\\Events\\Default Work Unit\\NPC\\drunk_snore",
+      "GUID": "{B1DB6427-76B3-4966-87A9-85F69129178F}",
+      "MaxAttenuation": "5.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "85836980",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448.wav",
+        "Path": "SFX\\Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448_192378AB.wem"
+       },
+       {
+        "Id": "177946613",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468 3.wav",
+        "Path": "SFX\\Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468 3_93EFB46A.wem"
+       },
+       {
+        "Id": "178399537",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448 3.wav",
+        "Path": "SFX\\Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448 3_064DDCBF.wem"
+       },
+       {
+        "Id": "390428077",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468.wav",
+        "Path": "SFX\\Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468_E11FF52E.wem"
+       },
+       {
+        "Id": "513142571",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468 1.wav",
+        "Path": "SFX\\Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468 1_56893D26.wem"
+       },
+       {
+        "Id": "671575838",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468 2.wav",
+        "Path": "SFX\\Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468 2_BB159D57.wem"
+       },
+       {
+        "Id": "672154894",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448 1.wav",
+        "Path": "SFX\\Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448 1_DE803B2D.wem"
+       },
+       {
+        "Id": "904521671",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448 2.wav",
+        "Path": "SFX\\Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448 2_11E29896.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       },
+       {
+        "Id": "2077253480",
+        "Name": "Room",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room",
+        "GUID": "{076F7FD8-8966-4301-AD53-D7F54C2186DF}"
+       }
+      ]
+     },
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\PC\\Footsteps",
+      "GUID": "{F16C9B29-B443-434F-B6CE-F46E07842F2C}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "30133102",
+        "Language": "SFX",
+        "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 7.wav",
+        "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 7_31864922.wem"
+       },
+       {
+        "Id": "117412151",
+        "Language": "SFX",
+        "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 5.wav",
+        "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 5_7734F54B.wem"
+       },
+       {
+        "Id": "126817567",
+        "Language": "SFX",
+        "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 6.wav",
+        "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 6_3E1CC7B5.wem"
+       },
+       {
+        "Id": "201254177",
+        "Language": "SFX",
+        "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Male, Leather Sole, Walk SND11517.wav",
+        "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Male, Leather Sole, Walk SND11517_D4A74205.wem"
+       },
+       {
+        "Id": "235529795",
+        "Language": "SFX",
+        "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Male, Leather Sole, Walk SND11517 1.wav",
+        "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Male, Leather Sole, Walk SND11517 1_7F6C9204.wem"
+       },
+       {
+        "Id": "804976568",
+        "Language": "SFX",
+        "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 3.wav",
+        "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 3_61018B6D.wem"
+       },
+       {
+        "Id": "1005323564",
+        "Language": "SFX",
+        "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 4.wav",
+        "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 4_9191C79F.wem"
+       },
+       {
+        "Id": "1011334266",
+        "Language": "SFX",
+        "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 8.wav",
+        "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 8_7F2A080B.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{5299E54F-CEC4-47FC-BDE3-6DF6BB7C90D4}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{36537704-060F-4B3E-8B81-87B24CB9E5E8}",
+        "Media": [
+         {
+          "Id": "30133102"
+         },
+         {
+          "Id": "117412151"
+         },
+         {
+          "Id": "126817567"
+         },
+         {
+          "Id": "201254177"
+         },
+         {
+          "Id": "235529795"
+         },
+         {
+          "Id": "804976568"
+         },
+         {
+          "Id": "1005323564"
+         },
+         {
+          "Id": "1011334266"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       }
+      ]
+     },
+     {
+      "Id": "278887670",
+      "Name": "Garden",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Garden",
+      "GUID": "{0B350213-87BB-4EF1-9092-A7196F86E5E1}",
+      "MaxAttenuation": "3.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "42629020",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763 1.wav",
+        "Path": "SFX\\Ambience\\Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763 1_0C3FDCAA.wem"
+       },
+       {
+        "Id": "431354892",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 3.wav",
+        "Path": "SFX\\Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 3_0C3FDCAA.wem"
+       },
+       {
+        "Id": "520494821",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 4.wav",
+        "Path": "SFX\\Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 4_0C3FDCAA.wem"
+       },
+       {
+        "Id": "616854782",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Ambience, Birdsong, Countryside, Birds Chirp, Flies, Distant Rumble SND5249.wav",
+        "Path": "SFX\\Ambience\\Ambience, Birdsong, Countryside, Birds Chirp, Flies, Distant Rumble SND5249_0C3FDCAA.wem"
+       },
+       {
+        "Id": "653670653",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763.wav",
+        "Path": "SFX\\Ambience\\Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763_0C3FDCAA.wem"
+       },
+       {
+        "Id": "720250712",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835.wav",
+        "Path": "SFX\\Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835_0C3FDCAA.wem"
+       },
+       {
+        "Id": "721930445",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Weather, Wind, Gusts, Snow, Rustling, Howling 01 SND11623.wav",
+        "Path": "SFX\\Ambience\\Weather, Wind, Gusts, Snow, Rustling, Howling 01 SND11623_0C3FDCAA.wem"
+       },
+       {
+        "Id": "856871517",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Ambience, Summer, Night, Pyrenees Mountains, France, Crickets, Distant River, Horse Whinny At 37 Secs SND14314.wav",
+        "Path": "SFX\\Ambience\\Ambience, Summer, Night, Pyrenees Mountains, France, Crickets, Distant River, Horse Whinny At 37 Secs SND14314_0C3FDCAA.wem"
+       },
+       {
+        "Id": "880471884",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 2.wav",
+        "Path": "SFX\\Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 2_0C3FDCAA.wem"
+       },
+       {
+        "Id": "960527516",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Ambience, Birdsong, Countryside, Birds Chirp, Seagulls, Day 1 SND5256.wav",
+        "Path": "SFX\\Ambience\\Ambience, Birdsong, Countryside, Birds Chirp, Seagulls, Day 1 SND5256_0C3FDCAA.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "278887670",
+        "Name": "Garden",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Garden",
+        "GUID": "{E5CA3DD3-A20B-4AD9-9116-23E894C2A99D}"
+       }
+      ]
+     },
+     {
+      "Id": "482946207",
+      "Name": "GHDS",
+      "ObjectPath": "\\Events\\Default Work Unit\\VO\\Add_PC\\GHDS",
+      "GUID": "{1BDB7A14-958F-4161-8808-ECA8B2DFD5F4}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "129349774",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\Add_3.wav",
+        "Path": "SFX\\PC\\VO\\Add_3_0C3FDCAA.wem"
+       },
+       {
+        "Id": "254077505",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\Add_1.wav",
+        "Path": "SFX\\PC\\VO\\Add_1_0C3FDCAA.wem"
+       },
+       {
+        "Id": "989584623",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\Add_2.wav",
+        "Path": "SFX\\PC\\VO\\Add_2_0C3FDCAA.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{6C32E746-6E8F-4CFF-AED8-844B61D36F08}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{09D0AD71-CF7A-4DDD-AF43-CB25953237A4}",
+        "Media": [
+         {
+          "Id": "129349774"
+         },
+         {
+          "Id": "254077505"
+         },
+         {
+          "Id": "989584623"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       },
+       {
+        "Id": "2077253480",
+        "Name": "Room",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room",
+        "GUID": "{076F7FD8-8966-4301-AD53-D7F54C2186DF}"
+       }
+      ]
+     },
+     {
+      "Id": "4135178078",
+      "Name": "Lamps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Lamps",
+      "GUID": "{1AEEC2CD-78D7-4F19-9B80-ED722340DE81}",
+      "MaxAttenuation": "4.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "326941",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430.wav",
+        "Path": "SFX\\Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430_EC917FFA.wem"
+       },
+       {
+        "Id": "375857017",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430 2.wav",
+        "Path": "SFX\\Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430 2_65BF32E5.wem"
+       },
+       {
+        "Id": "394936479",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Lamps\\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 1.wav",
+        "Path": "SFX\\Ambience\\Lamps\\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 1_363368E9.wem"
+       },
+       {
+        "Id": "685593506",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Lamps\\Lamps - Designed - 04 - becquerel - aXL.wav",
+        "Path": "SFX\\Ambience\\Lamps\\Lamps - Designed - 04 - becquerel - aXL_F566245D.wem"
+       },
+       {
+        "Id": "693806920",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Lamps\\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220.wav",
+        "Path": "SFX\\Ambience\\Lamps\\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220_E03480D6.wem"
+       },
+       {
+        "Id": "915303527",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Lamps\\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 2.wav",
+        "Path": "SFX\\Ambience\\Lamps\\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 2_C3FFA419.wem"
+       },
+       {
+        "Id": "922632205",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430 3.wav",
+        "Path": "SFX\\Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430 3_921E4F26.wem"
+       },
+       {
+        "Id": "1012963946",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430 4.wav",
+        "Path": "SFX\\Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430 4_400302C5.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{C68E1006-D718-445E-BC18-2A54A8CD22D3}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{C68E1006-D718-445E-BC18-2A54A8CD22D3}",
+        "Media": [
+         {
+          "Id": "326941"
+         },
+         {
+          "Id": "375857017"
+         },
+         {
+          "Id": "394936479"
+         },
+         {
+          "Id": "693806920"
+         },
+         {
+          "Id": "915303527"
+         },
+         {
+          "Id": "922632205"
+         },
+         {
+          "Id": "1012963946"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{C68E1006-D718-445E-BC18-2A54A8CD22D3}",
+        "Media": [
+         {
+          "Id": "685593506"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "3615515681",
+      "Name": "My_Legs",
+      "ObjectPath": "\\Events\\Default Work Unit\\VO\\Add_PC\\My_Legs",
+      "GUID": "{3FB8D9D7-8017-4236-967C-77B6E890EBCE}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.625000",
+      "DurationMax": "3.625000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "4120085",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\My_Legs.wav",
+        "Path": "SFX\\PC\\VO\\My_Legs_0C3FDCAA.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2077253480",
+        "Name": "Room",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room",
+        "GUID": "{076F7FD8-8966-4301-AD53-D7F54C2186DF}"
+       }
+      ]
+     },
+     {
+      "Id": "329753858",
+      "Name": "My_Shadow",
+      "ObjectPath": "\\Events\\Default Work Unit\\VO\\Add_PC\\My_Shadow",
+      "GUID": "{E9B107CA-AF72-4C18-A728-6FEC5263BAE5}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.000000",
+      "DurationMax": "5.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "917983684",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\Add_5.wav",
+        "Path": "SFX\\PC\\VO\\Add_5_0C3FDCAA.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "2077253480",
+        "Name": "Room",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room",
+        "GUID": "{076F7FD8-8966-4301-AD53-D7F54C2186DF}"
+       }
+      ]
+     },
+     {
+      "Id": "2934549620",
+      "Name": "Open_Door",
+      "ObjectPath": "\\Events\\Default Work Unit\\Props\\Open_Door",
+      "GUID": "{33511F72-3959-4ACD-BB56-6F1BC092C5CE}",
+      "MaxAttenuation": "5.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.317468",
+      "DurationMax": "1.317468",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "892620598",
+        "Language": "SFX",
+        "ShortName": "Props\\Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033 1.wav",
+        "Path": "SFX\\Props\\Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033 1_ED8E0FC5.wem"
+       },
+       {
+        "Id": "967829851",
+        "Language": "SFX",
+        "ShortName": "Props\\Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033.wav",
+        "Path": "SFX\\Props\\Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033_A57287CF.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       },
+       {
+        "Id": "2077253480",
+        "Name": "Room",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room",
+        "GUID": "{076F7FD8-8966-4301-AD53-D7F54C2186DF}"
+       }
+      ]
+     },
+     {
+      "Id": "438105790",
+      "Name": "Outside",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Outside",
+      "GUID": "{C663D8B0-A2F0-4667-8A8E-16B1A28151C5}",
+      "MaxAttenuation": "3.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "459328301",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Ambience, Urban, City, Light Traffic, Car Horn, Children, Walla, Distant Seagull SND4833.wav",
+        "Path": "SFX\\Ambience\\Ambience, Urban, City, Light Traffic, Car Horn, Children, Walla, Distant Seagull SND4833_0C3FDCAA.wem"
+       },
+       {
+        "Id": "849449404",
+        "Language": "SFX",
+        "ShortName": "Ambience\\AMB TOWN Street Calm Afternoon Sparrows Traffic 2.wav",
+        "Path": "SFX\\Ambience\\AMB TOWN Street Calm Afternoon Sparrows Traffic 2_0C3FDCAA.wem"
+       },
+       {
+        "Id": "1009158401",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Ambience, City Park, Distant Traffic, Voices, Birds Chirping-AmbiX.wav",
+        "Path": "SFX\\Ambience\\Ambience, City Park, Distant Traffic, Voices, Birds Chirping-AmbiX_0C3FDCAA.wem"
+       },
+       {
+        "Id": "1023224642",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Ambience, City, Medium Traffic, Car Pass, Tram 1 SND0141.wav",
+        "Path": "SFX\\Ambience\\Ambience, City, Medium Traffic, Car Pass, Tram 1 SND0141_0C3FDCAA.wem"
+       }
+      ]
+     },
+     {
+      "Id": "514669061",
+      "Name": "Panelka",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Panelka",
+      "GUID": "{A5E80095-7B11-485A-B518-24A88C41B08D}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "530473155",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Ambience, Room Tone, Empty Office, Deep, Quiet, 5ch SND36285.wav",
+        "Path": "SFX\\Ambience\\Ambience, Room Tone, Empty Office, Deep, Quiet, 5ch SND36285_6140A20C.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       }
+      ]
+     },
+     {
+      "Id": "3177314091",
+      "Name": "Party",
+      "ObjectPath": "\\Events\\Default Work Unit\\Behind Doors\\Party",
+      "GUID": "{35A90940-0D94-42AC-90F9-1F88BEB5030F}",
+      "MaxAttenuation": "9.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "428129825",
+        "Language": "SFX",
+        "ShortName": "Behin Doors\\Like Dota game Robot 2020 10 28.wav",
+        "Path": "SFX\\Behin Doors\\Like Dota game Robot 2020 10 28_6F0CDF74.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       },
+       {
+        "Id": "2077253480",
+        "Name": "Room",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room",
+        "GUID": "{076F7FD8-8966-4301-AD53-D7F54C2186DF}"
+       }
+      ]
+     },
+     {
+      "Id": "1140011315",
+      "Name": "PC_Ugh",
+      "ObjectPath": "\\Events\\Default Work Unit\\PC\\PC_Ugh",
+      "GUID": "{9B69901B-3980-4B7D-BA49-0D920EB2EDDA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.403750",
+      "DurationMax": "0.403750",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "549266977",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\Ugh.wav",
+        "Path": "SFX\\PC\\VO\\Ugh_60B17840.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       }
+      ]
+     },
+     {
+      "Id": "2641340079",
+      "Name": "Reactions",
+      "ObjectPath": "\\Events\\Default Work Unit\\VO\\Reactions",
+      "GUID": "{C612F567-E811-4F6E-93CE-3E1028033A49}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "169371246",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\4th_floor.wav",
+        "Path": "SFX\\PC\\VO\\4th_floor_0C3FDCAA.wem"
+       },
+       {
+        "Id": "546743345",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\Im_home.wav",
+        "Path": "SFX\\PC\\VO\\Im_home_0C3FDCAA.wem"
+       },
+       {
+        "Id": "554946171",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\4th_floor_disco.akd.wav",
+        "Path": "SFX\\PC\\VO\\4th_floor_disco.akd_0C3FDCAA.wem"
+       },
+       {
+        "Id": "626107758",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\5th_floor_door.wav",
+        "Path": "SFX\\PC\\VO\\5th_floor_door_0C3FDCAA.wem"
+       },
+       {
+        "Id": "1024965854",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\3rd_floor.wav",
+        "Path": "SFX\\PC\\VO\\3rd_floor_0C3FDCAA.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{9217C389-E907-4554-A246-C7EC072C06F9}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{26D857F6-9CA2-4237-A91F-6EF60B79FBFF}",
+        "Media": [
+         {
+          "Id": "1024965854"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{EC224C31-BFA8-4854-9C41-D1EE54188EBD}",
+        "Media": [
+         {
+          "Id": "554946171"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{F109B7BE-1FA5-43C6-A9D5-92363721D64E}",
+        "Media": [
+         {
+          "Id": "169371246"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{AE7B1CAF-C835-40C6-82C7-D066FC96C95E}",
+        "Media": [
+         {
+          "Id": "626107758"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{37A0EAD0-71C7-4601-913E-7909BD982ED2}",
+        "Media": [
+         {
+          "Id": "546743345"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       },
+       {
+        "Id": "278887670",
+        "Name": "Garden",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Garden",
+        "GUID": "{E5CA3DD3-A20B-4AD9-9116-23E894C2A99D}"
+       },
+       {
+        "Id": "2077253480",
+        "Name": "Room",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room",
+        "GUID": "{076F7FD8-8966-4301-AD53-D7F54C2186DF}"
+       }
+      ]
+     },
+     {
+      "Id": "1281810935",
+      "Name": "Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Start",
+      "GUID": "{533CEA0A-BBE4-49F4-9F38-3043E1831416}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.000000",
+      "DurationMax": "7.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "308784240",
+        "Language": "SFX",
+        "ShortName": "PC\\VO\\My_1st_come.wav",
+        "Path": "SFX\\PC\\VO\\My_1st_come_0C3FDCAA.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       },
+       {
+        "Id": "2077253480",
+        "Name": "Room",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room",
+        "GUID": "{076F7FD8-8966-4301-AD53-D7F54C2186DF}"
+       }
+      ]
+     },
+     {
+      "Id": "1863734011",
+      "Name": "Trash_Chute",
+      "ObjectPath": "\\Events\\Default Work Unit\\Behind Doors\\Trash_Chute",
+      "GUID": "{200A0382-7A0D-4767-BB19-8A57C99F93A8}",
+      "MaxAttenuation": "10.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.757483",
+      "DurationMax": "3.757483",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "348820655",
+        "Language": "SFX",
+        "ShortName": "Props\\Trash Chute by krb21 Id-118619.wav",
+        "Path": "SFX\\Props\\Trash Chute by krb21 Id-118619_04AE73C9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1568083719",
+      "Name": "TV",
+      "ObjectPath": "\\Events\\Default Work Unit\\Behind Doors\\TV",
+      "GUID": "{665CB7C9-AE65-42E5-9F73-80CF51C9B6C2}",
+      "MaxAttenuation": "4.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "803249482",
+        "Language": "SFX",
+        "ShortName": "Ambience\\Украина_ ни слова на русском. Время покажет. Фрагмент выпуска от 15.01.2021.wav",
+        "Path": "SFX\\Ambience\\Украина_ ни слова на русском. Время покажет. Фрагмент выпуска от 15.01.2021_FB031D97.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       },
+       {
+        "Id": "1984446739",
+        "Name": "Room_Behind",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room_Behind",
+        "GUID": "{28192737-BA61-4E20-A01C-0FCA69064FA9}"
+       }
+      ]
+     },
+     {
+      "Id": "4188269641",
+      "Name": "Water_drops",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Water_drops",
+      "GUID": "{C4B84292-BD7D-456E-8547-8CE2EC8813A6}",
+      "MaxAttenuation": "3.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "792908959",
+        "Language": "SFX",
+        "ShortName": "Ambience\\3DS02 Cave Stalactite Quiet Dripping 02 20 1.wav",
+        "Path": "SFX\\Ambience\\3DS02 Cave Stalactite Quiet Dripping 02 20 1_0C3FDCAA.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "243379636",
+        "Name": "Reflect",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+        "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+       }
+      ]
+     }
+    ],
+    "IncludedAuxBusses": [
+     {
+      "Id": "243379636",
+      "Name": "Reflect",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+      "GUID": "{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}"
+     },
+     {
+      "Id": "278887670",
+      "Name": "Garden",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Garden",
+      "GUID": "{E5CA3DD3-A20B-4AD9-9116-23E894C2A99D}"
+     },
+     {
+      "Id": "337909779",
+      "Name": "Party_Room",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Party_Room",
+      "GUID": "{ED30F0CF-94DB-4D0E-99A8-2C4A6AEA0914}"
+     },
+     {
+      "Id": "1984446739",
+      "Name": "Room_Behind",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room_Behind",
+      "GUID": "{28192737-BA61-4E20-A01C-0FCA69064FA9}"
+     },
+     {
+      "Id": "2077253480",
+      "Name": "Room",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Room",
+      "GUID": "{076F7FD8-8966-4301-AD53-D7F54C2186DF}"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "326941",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430.wav",
+      "Path": "SFX\\Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430_EC917FFA.wem"
+     },
+     {
+      "Id": "4120085",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\My_Legs.wav",
+      "Path": "SFX\\PC\\VO\\My_Legs_0C3FDCAA.wem"
+     },
+     {
+      "Id": "30133102",
+      "Language": "SFX",
+      "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 7.wav",
+      "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 7_31864922.wem"
+     },
+     {
+      "Id": "42629020",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763 1.wav",
+      "Path": "SFX\\Ambience\\Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763 1_0C3FDCAA.wem"
+     },
+     {
+      "Id": "75581377",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Animal, Dogs, Barking, Small 2 SND14612 1.wav",
+      "Path": "SFX\\Ambience\\Animal, Dogs, Barking, Small 2 SND14612 1_0C3FDCAA.wem"
+     },
+     {
+      "Id": "85836980",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448.wav",
+      "Path": "SFX\\Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448_192378AB.wem"
+     },
+     {
+      "Id": "117412151",
+      "Language": "SFX",
+      "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 5.wav",
+      "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 5_7734F54B.wem"
+     },
+     {
+      "Id": "126817567",
+      "Language": "SFX",
+      "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 6.wav",
+      "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 6_3E1CC7B5.wem"
+     },
+     {
+      "Id": "129349774",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\Add_3.wav",
+      "Path": "SFX\\PC\\VO\\Add_3_0C3FDCAA.wem"
+     },
+     {
+      "Id": "169371246",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\4th_floor.wav",
+      "Path": "SFX\\PC\\VO\\4th_floor_0C3FDCAA.wem"
+     },
+     {
+      "Id": "170847467",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Animal, Dogs, Barking, Small 2 SND14612.wav",
+      "Path": "SFX\\Ambience\\Animal, Dogs, Barking, Small 2 SND14612_0C3FDCAA.wem"
+     },
+     {
+      "Id": "177946613",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468 3.wav",
+      "Path": "SFX\\Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468 3_93EFB46A.wem"
+     },
+     {
+      "Id": "178399537",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448 3.wav",
+      "Path": "SFX\\Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448 3_064DDCBF.wem"
+     },
+     {
+      "Id": "178920862",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Animal, Dogs, Barking, Small 4 SND14610.wav",
+      "Path": "SFX\\Ambience\\Animal, Dogs, Barking, Small 4 SND14610_0C3FDCAA.wem"
+     },
+     {
+      "Id": "201254177",
+      "Language": "SFX",
+      "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Male, Leather Sole, Walk SND11517.wav",
+      "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Male, Leather Sole, Walk SND11517_D4A74205.wem"
+     },
+     {
+      "Id": "235529795",
+      "Language": "SFX",
+      "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Male, Leather Sole, Walk SND11517 1.wav",
+      "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Male, Leather Sole, Walk SND11517 1_7F6C9204.wem"
+     },
+     {
+      "Id": "254077505",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\Add_1.wav",
+      "Path": "SFX\\PC\\VO\\Add_1_0C3FDCAA.wem"
+     },
+     {
+      "Id": "265532728",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\1st_floor_for_babla 2.wav",
+      "Path": "SFX\\PC\\VO\\1st_floor_for_babla 2_0C3FDCAA.wem"
+     },
+     {
+      "Id": "308784240",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\My_1st_come.wav",
+      "Path": "SFX\\PC\\VO\\My_1st_come_0C3FDCAA.wem"
+     },
+     {
+      "Id": "320220072",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 4.wav",
+      "Path": "SFX\\Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 4_0C3FDCAA.wem"
+     },
+     {
+      "Id": "334549146",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 1.wav",
+      "Path": "SFX\\Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 1_0C3FDCAA.wem"
+     },
+     {
+      "Id": "348820655",
+      "Language": "SFX",
+      "ShortName": "Props\\Trash Chute by krb21 Id-118619.wav",
+      "Path": "SFX\\Props\\Trash Chute by krb21 Id-118619_04AE73C9.wem"
+     },
+     {
+      "Id": "375857017",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430 2.wav",
+      "Path": "SFX\\Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430 2_65BF32E5.wem"
+     },
+     {
+      "Id": "390428077",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468.wav",
+      "Path": "SFX\\Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468_E11FF52E.wem"
+     },
+     {
+      "Id": "394936479",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Lamps\\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 1.wav",
+      "Path": "SFX\\Ambience\\Lamps\\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 1_363368E9.wem"
+     },
+     {
+      "Id": "397223699",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312.wav",
+      "Path": "SFX\\Ambience\\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312_0C3FDCAA.wem"
+     },
+     {
+      "Id": "428129825",
+      "Language": "SFX",
+      "ShortName": "Behin Doors\\Like Dota game Robot 2020 10 28.wav",
+      "Path": "SFX\\Behin Doors\\Like Dota game Robot 2020 10 28_6F0CDF74.wem"
+     },
+     {
+      "Id": "431354892",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 3.wav",
+      "Path": "SFX\\Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 3_0C3FDCAA.wem"
+     },
+     {
+      "Id": "444669226",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\1st_floor_babla.wav",
+      "Path": "SFX\\PC\\VO\\1st_floor_babla_0C3FDCAA.wem"
+     },
+     {
+      "Id": "459328301",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Ambience, Urban, City, Light Traffic, Car Horn, Children, Walla, Distant Seagull SND4833.wav",
+      "Path": "SFX\\Ambience\\Ambience, Urban, City, Light Traffic, Car Horn, Children, Walla, Distant Seagull SND4833_0C3FDCAA.wem"
+     },
+     {
+      "Id": "496370755",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312 1.wav",
+      "Path": "SFX\\Ambience\\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312 1_0C3FDCAA.wem"
+     },
+     {
+      "Id": "513142571",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468 1.wav",
+      "Path": "SFX\\Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468 1_56893D26.wem"
+     },
+     {
+      "Id": "514562875",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 3.wav",
+      "Path": "SFX\\Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 3_0C3FDCAA.wem"
+     },
+     {
+      "Id": "520494821",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 4.wav",
+      "Path": "SFX\\Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 4_0C3FDCAA.wem"
+     },
+     {
+      "Id": "530473155",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Ambience, Room Tone, Empty Office, Deep, Quiet, 5ch SND36285.wav",
+      "Path": "SFX\\Ambience\\Ambience, Room Tone, Empty Office, Deep, Quiet, 5ch SND36285_6140A20C.wem"
+     },
+     {
+      "Id": "546743345",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\Im_home.wav",
+      "Path": "SFX\\PC\\VO\\Im_home_0C3FDCAA.wem"
+     },
+     {
+      "Id": "549266977",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\Ugh.wav",
+      "Path": "SFX\\PC\\VO\\Ugh_60B17840.wem"
+     },
+     {
+      "Id": "553634353",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 2.wav",
+      "Path": "SFX\\PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 2_CB4E843A.wem"
+     },
+     {
+      "Id": "554946171",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\4th_floor_disco.akd.wav",
+      "Path": "SFX\\PC\\VO\\4th_floor_disco.akd_0C3FDCAA.wem"
+     },
+     {
+      "Id": "574197304",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Animal, Dogs, Barking, Small 1 SND14613.wav",
+      "Path": "SFX\\Ambience\\Animal, Dogs, Barking, Small 1 SND14613_0C3FDCAA.wem"
+     },
+     {
+      "Id": "577455993",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 3.wav",
+      "Path": "SFX\\PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 3_3DBD4B95.wem"
+     },
+     {
+      "Id": "592807539",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 2.wav",
+      "Path": "SFX\\Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 2_0C3FDCAA.wem"
+     },
+     {
+      "Id": "614701443",
+      "Language": "SFX",
+      "ShortName": "Mountains, Field, Few Houses 50m.wav",
+      "Path": "Plugins\\Wwise Convolution Reverb\\Mountains, Field, Few Houses 50m_0A7A2C0D.wem"
+     },
+     {
+      "Id": "616854782",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Ambience, Birdsong, Countryside, Birds Chirp, Flies, Distant Rumble SND5249.wav",
+      "Path": "SFX\\Ambience\\Ambience, Birdsong, Countryside, Birds Chirp, Flies, Distant Rumble SND5249_0C3FDCAA.wem"
+     },
+     {
+      "Id": "626107758",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\5th_floor_door.wav",
+      "Path": "SFX\\PC\\VO\\5th_floor_door_0C3FDCAA.wem"
+     },
+     {
+      "Id": "653670653",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763.wav",
+      "Path": "SFX\\Ambience\\Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763_0C3FDCAA.wem"
+     },
+     {
+      "Id": "671575838",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468 2.wav",
+      "Path": "SFX\\Ambience\\Snore\\Human, Snore, Man, Elderly, Snore SND23468 2_BB159D57.wem"
+     },
+     {
+      "Id": "672154894",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448 1.wav",
+      "Path": "SFX\\Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448 1_DE803B2D.wem"
+     },
+     {
+      "Id": "675698929",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\Add_4.wav",
+      "Path": "SFX\\PC\\VO\\Add_4_0C3FDCAA.wem"
+     },
+     {
+      "Id": "685593506",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Lamps\\Lamps - Designed - 04 - becquerel - aXL.wav",
+      "Path": "SFX\\Ambience\\Lamps\\Lamps - Designed - 04 - becquerel - aXL_F566245D.wem"
+     },
+     {
+      "Id": "693806920",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Lamps\\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220.wav",
+      "Path": "SFX\\Ambience\\Lamps\\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220_E03480D6.wem"
+     },
+     {
+      "Id": "720250712",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835.wav",
+      "Path": "SFX\\Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835_0C3FDCAA.wem"
+     },
+     {
+      "Id": "721930445",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Weather, Wind, Gusts, Snow, Rustling, Howling 01 SND11623.wav",
+      "Path": "SFX\\Ambience\\Weather, Wind, Gusts, Snow, Rustling, Howling 01 SND11623_0C3FDCAA.wem"
+     },
+     {
+      "Id": "772920992",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 4.wav",
+      "Path": "SFX\\PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 4_599F531A.wem"
+     },
+     {
+      "Id": "792908959",
+      "Language": "SFX",
+      "ShortName": "Ambience\\3DS02 Cave Stalactite Quiet Dripping 02 20 1.wav",
+      "Path": "SFX\\Ambience\\3DS02 Cave Stalactite Quiet Dripping 02 20 1_0C3FDCAA.wem"
+     },
+     {
+      "Id": "802170934",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 1.wav",
+      "Path": "SFX\\PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801 1_47171854.wem"
+     },
+     {
+      "Id": "803249482",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Украина_ ни слова на русском. Время покажет. Фрагмент выпуска от 15.01.2021.wav",
+      "Path": "SFX\\Ambience\\Украина_ ни слова на русском. Время покажет. Фрагмент выпуска от 15.01.2021_FB031D97.wem"
+     },
+     {
+      "Id": "804976568",
+      "Language": "SFX",
+      "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 3.wav",
+      "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 3_61018B6D.wem"
+     },
+     {
+      "Id": "849449404",
+      "Language": "SFX",
+      "ShortName": "Ambience\\AMB TOWN Street Calm Afternoon Sparrows Traffic 2.wav",
+      "Path": "SFX\\Ambience\\AMB TOWN Street Calm Afternoon Sparrows Traffic 2_0C3FDCAA.wem"
+     },
+     {
+      "Id": "856871517",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Ambience, Summer, Night, Pyrenees Mountains, France, Crickets, Distant River, Horse Whinny At 37 Secs SND14314.wav",
+      "Path": "SFX\\Ambience\\Ambience, Summer, Night, Pyrenees Mountains, France, Crickets, Distant River, Horse Whinny At 37 Secs SND14314_0C3FDCAA.wem"
+     },
+     {
+      "Id": "880471884",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 2.wav",
+      "Path": "SFX\\Ambience\\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 2_0C3FDCAA.wem"
+     },
+     {
+      "Id": "892620598",
+      "Language": "SFX",
+      "ShortName": "Props\\Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033 1.wav",
+      "Path": "SFX\\Props\\Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033 1_ED8E0FC5.wem"
+     },
+     {
+      "Id": "902384614",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582.wav",
+      "Path": "SFX\\Ambience\\Animal, Dog, Golden Retriever, Barks, Whimper SND0582_0C3FDCAA.wem"
+     },
+     {
+      "Id": "904521671",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448 2.wav",
+      "Path": "SFX\\Ambience\\Snore\\Human, Snore, Male, Snoring 2 SND23448 2_11E29896.wem"
+     },
+     {
+      "Id": "904606069",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801.wav",
+      "Path": "SFX\\PC\\VO\\Man Waking Up From Sleep by khenshom Id-500801_FC3F266F.wem"
+     },
+     {
+      "Id": "915303527",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Lamps\\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 2.wav",
+      "Path": "SFX\\Ambience\\Lamps\\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 2_C3FFA419.wem"
+     },
+     {
+      "Id": "917983684",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\Add_5.wav",
+      "Path": "SFX\\PC\\VO\\Add_5_0C3FDCAA.wem"
+     },
+     {
+      "Id": "922632205",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430 3.wav",
+      "Path": "SFX\\Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430 3_921E4F26.wem"
+     },
+     {
+      "Id": "960527516",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Ambience, Birdsong, Countryside, Birds Chirp, Seagulls, Day 1 SND5256.wav",
+      "Path": "SFX\\Ambience\\Ambience, Birdsong, Countryside, Birds Chirp, Seagulls, Day 1 SND5256_0C3FDCAA.wem"
+     },
+     {
+      "Id": "967829851",
+      "Language": "SFX",
+      "ShortName": "Props\\Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033.wav",
+      "Path": "SFX\\Props\\Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033_A57287CF.wem"
+     },
+     {
+      "Id": "968214745",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\1st_floor_for_babla.wav",
+      "Path": "SFX\\PC\\VO\\1st_floor_for_babla_0C3FDCAA.wem"
+     },
+     {
+      "Id": "989584623",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\Add_2.wav",
+      "Path": "SFX\\PC\\VO\\Add_2_0C3FDCAA.wem"
+     },
+     {
+      "Id": "1005323564",
+      "Language": "SFX",
+      "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 4.wav",
+      "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 4_9191C79F.wem"
+     },
+     {
+      "Id": "1009158401",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Ambience, City Park, Distant Traffic, Voices, Birds Chirping-AmbiX.wav",
+      "Path": "SFX\\Ambience\\Ambience, City Park, Distant Traffic, Voices, Birds Chirping-AmbiX_0C3FDCAA.wem"
+     },
+     {
+      "Id": "1011334266",
+      "Language": "SFX",
+      "ShortName": "PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 8.wav",
+      "Path": "SFX\\PC\\Footsteps\\Footsteps, Asphalt, Sneaker, Slow SND1005 8_7F2A080B.wem"
+     },
+     {
+      "Id": "1012963946",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430 4.wav",
+      "Path": "SFX\\Ambience\\Lamps\\Neon Lamp, Switch On, Hum by Kinoton Id-351430 4_400302C5.wem"
+     },
+     {
+      "Id": "1023224642",
+      "Language": "SFX",
+      "ShortName": "Ambience\\Ambience, City, Medium Traffic, Car Pass, Tram 1 SND0141.wav",
+      "Path": "SFX\\Ambience\\Ambience, City, Medium Traffic, Car Pass, Tram 1 SND0141_0C3FDCAA.wem"
+     },
+     {
+      "Id": "1024965854",
+      "Language": "SFX",
+      "ShortName": "PC\\VO\\3rd_floor.wav",
+      "Path": "SFX\\PC\\VO\\3rd_floor_0C3FDCAA.wem"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "553004871",
+      "Name": "PC_Hight",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PC_Hight",
+      "GUID": "{5FFBB9C2-67BE-4EC4-B645-CCE4B2A4F125}"
+     },
+     {
+      "Id": "1110095543",
+      "Name": "Velocity_Magnitude",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PC\\Velocity_Magnitude",
+      "GUID": "{B22216FA-6DA3-4253-AAF9-489681FFA5BD}"
+     },
+     {
+      "Id": "3835786763",
+      "Name": "Near_Dogs",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Near_Dogs",
+      "GUID": "{A00E2FB5-B892-43C2-8943-0CD6555F0F6E}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "482946207",
+      "Name": "GHDS",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PC\\GHDS",
+      "GUID": "{4823DE97-24EB-4FCF-A9CA-61EA804F120B}",
+      "Switches": [
+       {
+        "Id": "2974103762",
+        "Name": "Mute",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PC\\GHDS\\Mute",
+        "GUID": "{6C32E746-6E8F-4CFF-AED8-844B61D36F08}"
+       },
+       {
+        "Id": "1256202815",
+        "Name": "Play",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PC\\GHDS\\Play",
+        "GUID": "{09D0AD71-CF7A-4DDD-AF43-CB25953237A4}"
+       }
+      ]
+     },
+     {
+      "Id": "2439360821",
+      "Name": "Light_glitch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Light_glitch",
+      "GUID": "{1EA86AD4-DBA3-49FF-BB9F-3E123DB12FBB}",
+      "Switches": [
+       {
+        "Id": "930712164",
+        "Name": "Off",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Light_glitch\\Off",
+        "GUID": "{C669E7C2-D163-4D54-8CCD-9CF757790C33}"
+       },
+       {
+        "Id": "1651971902",
+        "Name": "On",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Light_glitch\\On",
+        "GUID": "{C68E1006-D718-445E-BC18-2A54A8CD22D3}"
+       }
+      ]
+     },
+     {
+      "Id": "2641340079",
+      "Name": "Reactions",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PC\\Reactions",
+      "GUID": "{406E1F87-7428-47E7-AE29-066F8D40418A}",
+      "Switches": [
+       {
+        "Id": "2743384229",
+        "Name": "Drunk",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PC\\Reactions\\Drunk",
+        "GUID": "{26D857F6-9CA2-4237-A91F-6EF60B79FBFF}"
+       },
+       {
+        "Id": "278887670",
+        "Name": "Garden",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PC\\Reactions\\Garden",
+        "GUID": "{F109B7BE-1FA5-43C6-A9D5-92363721D64E}"
+       },
+       {
+        "Id": "3920460409",
+        "Name": "Disco",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PC\\Reactions\\Disco",
+        "GUID": "{EC224C31-BFA8-4854-9C41-D1EE54188EBD}"
+       },
+       {
+        "Id": "128041979",
+        "Name": "Home_floor",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PC\\Reactions\\Home_floor",
+        "GUID": "{AE7B1CAF-C835-40C6-82C7-D066FC96C95E}"
+       },
+       {
+        "Id": "3181406844",
+        "Name": "Home",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PC\\Reactions\\Home",
+        "GUID": "{37A0EAD0-71C7-4601-913E-7909BD982ED2}"
+       },
+       {
+        "Id": "3354297748",
+        "Name": "Empty",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PC\\Reactions\\Empty",
+        "GUID": "{9217C389-E907-4554-A246-C7EC072C06F9}"
+       }
+      ]
+     },
+     {
+      "Id": "3835786763",
+      "Name": "Near_Dogs",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Near_Dogs",
+      "GUID": "{24AF9F9A-597D-4C55-818F-DF8C949E8DAF}",
+      "Switches": [
+       {
+        "Id": "1133794587",
+        "Name": "Near",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Near_Dogs\\Near",
+        "GUID": "{445EE3B0-B86F-4012-B9A6-B0FB343C6E3E}"
+       },
+       {
+        "Id": "1183803292",
+        "Name": "Far",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Near_Dogs\\Far",
+        "GUID": "{0CE8900D-3B54-4433-A56C-81256C443DA6}"
+       }
+      ]
+     },
+     {
+      "Id": "3940648127",
+      "Name": "isMoving",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PC\\isMoving",
+      "GUID": "{777122A0-1361-4FAB-B9D8-9D74801D502F}",
+      "Switches": [
+       {
+        "Id": "1071698383",
+        "Name": "_00_stop",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PC\\isMoving\\_00_stop",
+        "GUID": "{5299E54F-CEC4-47FC-BDE3-6DF6BB7C90D4}"
+       },
+       {
+        "Id": "1788549707",
+        "Name": "_01_move",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PC\\isMoving\\_01_move",
+        "GUID": "{36537704-060F-4B3E-8B81-87B24CB9E5E8}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

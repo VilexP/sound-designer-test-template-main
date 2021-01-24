@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7EAE613D-3627-442E-8066-74AAC05E251C}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{7EAE613D-3627-442E-8066-74AAC05E251C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{2468392B-16DC-4DBD-BB3A-B902F78711F0}" WorkUnitID="{C9E81FFF-90EF-421D-9798-CB7A28FF9293}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise_Peak_Limiter_(Custom)" ID="{6CAE48C5-C35C-451C-BD34-09233D6DBCAF}" ShortID="346397626" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+									<PropertyList>
+										<Property Name="OutputGain" Type="Real32" Value="12"/>
+										<Property Name="Threshold" Type="Real32" Value="-10"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Reflect" ID="{E55D4820-A8CE-4621-8234-DB1BB7FFE8D9}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom CreatedFrom="{7A96BDDC-6204-4FF8-9185-72475449750A}">
+										<Attenuation Name="Sounds (Custom)" ID="{69B8FF5F-5542-4712-96C1-ADBB0B8A7562}" ShortID="911339039">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="10"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{90571099-3CB4-4172-AADD-078C6F6C3DFB}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>2.5925926</XPos>
+																	<YPos>-15.90104</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>SCurve</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{FACD5678-5047-4579-8293-BF2E5FE9B5D2}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>100</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>1.40572393</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Reflect_(Custom)" ID="{CB005281-BBC8-45AA-BF74-468A09F2ECE1}" ShortID="1034847628" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
+											<PropertyList>
+												<Property Name="CursorNameCategory" Type="int32" Value="5"/>
+												<Property Name="MaxDistance" Type="Real32" Value="200"/>
+												<Property Name="OutputChannelConfig" Type="int32" Value="6353158"/>
+												<Property Name="SpeedOfSound" Type="Real32" Value="331"/>
+											</PropertyList>
+											<PluginData>
+	<ReflectData>
+		<CurveList Version="4">
+			<CurveInfo Name="Diffraction Attenuation">
+				<Curve Name="" ID="{2AFACCE2-2702-4611-BBAC-07DC25D36ED0}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>-3</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction HPF">
+				<Curve Name="" ID="{A9B3EFFD-EDCE-49BB-BA87-3692411FDBFE}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction LPF">
+				<Curve Name="" ID="{EE3718C7-0A64-462F-AFBE-7CA5ABDEDCB1}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+							<SegmentShape>Log3</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>8.33333333333333</XPos>
+							<YPos>1000</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>100</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Attenuation (Emitter vs. Listener)">
+				<Curve Name="" ID="{13881669-BB4C-45DF-A915-A755D4382A39}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>200</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Attenuation (Image Source vs. Listener)">
+				<Curve Name="" ID="{A5F8F728-E461-4A8F-83DB-A15203541D65}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>30</XPos>
+							<YPos>-6</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>60</XPos>
+							<YPos>-12</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>120</XPos>
+							<YPos>-18</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>200</XPos>
+							<YPos>-200</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance High-pass Filter (Image Source vs. Listener)">
+				<Curve Name="" ID="{A9139A2B-D7B2-4233-8EEB-9FDB5A543476}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>200</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Low-pass Filter (Image Source vs. Listener)">
+				<Curve Name="" ID="{C3BBD192-0AD4-4EDC-894F-EFBFE1FFDF85}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>200</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Spread (Image Source vs. Listener)">
+				<Curve Name="" ID="{1BC50EA4-281F-4980-BEF4-22085FBAB09C}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>200</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ReflectData>
+</PluginData>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Room" ID="{076F7FD8-8966-4301-AD53-D7F54C2186DF}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Medium_Tiled" ID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Party_Room" ID="{ED30F0CF-94DB-4D0E-99A8-2C4A6AEA0914}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Medium_High_Absorbtion" ID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Room_Behind" ID="{28192737-BA61-4E20-A01C-0FCA69064FA9}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Medium_Tiled" ID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Garden" ID="{E5CA3DD3-A20B-4AD9-9116-23E894C2A99D}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Convolution_Reverb_(Custom)" ID="{0ED9797C-FBF4-43F5-8A20-70663BDEBB87}" ShortID="454112885" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+											<PropertyList>
+												<Property Name="IRConvolutionStop" Type="Real64" Value="6.72533333333333"/>
+												<Property Name="IRConvolutionThreshold" Type="Real32" Value="-75"/>
+												<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<PluginMediaSource Name="" ID="{BF27ADC3-DD6F-4072-9CF2-684BF27D0702}">
+													<ParentPluginID>8323075</ParentPluginID>
+													<PropertyList>
+														<Property Name="DataFileName" Type="string" Value="Mountains, Field, Few Houses 50m.wav"/>
+													</PropertyList>
+													<MediaIDList>
+														<MediaID ID="614701443"/>
+													</MediaIDList>
+												</PluginMediaSource>
+											</ChildrenList>
+											<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="" ID="{14947D3D-650D-46F6-ACE4-0FA9320BEF40}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>-48</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>98.9357248050224</XPos>
+							<YPos>0</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="" ID="{08FF7FE8-2B67-45ED-A80D-33032FED1FF3}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>6.72533333333333</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="" ID="{C36F3CCD-3A52-433C-A5E9-001082282F5D}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>-18.53933</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.19579</XPos>
+							<YPos>0</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>6.72533333333333</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

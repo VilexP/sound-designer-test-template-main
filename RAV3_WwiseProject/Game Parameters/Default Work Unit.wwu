@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AA160423-4E80-457D-87B8-7F14C02546AE}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{AA160423-4E80-457D-87B8-7F14C02546AE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="PC" ID="{BF206BFE-AB18-4DF2-9CD6-31E184C90A67}" ShortID="617650668">
+					<ChildrenList>
+						<GameParameter Name="Velocity_Magnitude" ID="{B22216FA-6DA3-4253-AAF9-489681FFA5BD}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="5"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<GameParameter Name="Near_Dogs" ID="{A00E2FB5-B892-43C2-8943-0CD6555F0F6E}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="PC_Hight" ID="{5FFBB9C2-67BE-4EC4-B645-CCE4B2A4F125}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="17"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,49 @@
+{
+ "PluginInfo": {
+  "Project": "RAV3_WwiseProject",
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "Plugins": [
+   {
+    "Name": "Wwise Silence",
+    "ID": "6619138",
+    "DLL": "AkSilenceGenerator"
+   },
+   {
+    "Name": "Wwise Parametric EQ",
+    "ID": "6881283",
+    "DLL": "AkParametricEQ"
+   },
+   {
+    "Name": "Wwise Peak Limiter",
+    "ID": "7208963",
+    "DLL": "AkPeakLimiter"
+   },
+   {
+    "Name": "Wwise RoomVerb",
+    "ID": "7733251",
+    "DLL": "AkRoomVerb"
+   },
+   {
+    "Name": "Wwise Convolution Reverb",
+    "ID": "8323075",
+    "DLL": "AkConvolutionReverb"
+   },
+   {
+    "Name": "Wwise Reflect",
+    "ID": "11206659",
+    "DLL": "AkReflect"
+   },
+   {
+    "Name": "System",
+    "ID": "11403271",
+    "DLL": "DefaultSink"
+   },
+   {
+    "Name": "No Output",
+    "ID": "11862023",
+    "DLL": "DefaultSink"
+   }
+  ]
+ }
+}

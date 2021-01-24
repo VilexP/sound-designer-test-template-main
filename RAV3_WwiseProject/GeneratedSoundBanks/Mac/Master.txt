@@ -1,0 +1,166 @@
+Event	ID	Name			Wwise Object Path	Notes
+	278887670	Garden			\Default Work Unit\Ambience\Garden	
+	329753858	My_Shadow			\Default Work Unit\VO\Add_PC\My_Shadow	
+	438105790	Outside			\Default Work Unit\Ambience\Outside	
+	482946207	GHDS			\Default Work Unit\VO\Add_PC\GHDS	
+	514669061	Panelka			\Default Work Unit\Ambience\Panelka	
+	1140011315	PC_Ugh			\Default Work Unit\PC\PC_Ugh	
+	1281810935	Start			\Default Work Unit\Start	
+	1568083719	TV			\Default Work Unit\Behind Doors\TV	
+	1863734011	Trash_Chute			\Default Work Unit\Behind Doors\Trash_Chute	
+	2012068516	Dogs			\Default Work Unit\Behind Doors\Dogs	
+	2385628198	Footsteps			\Default Work Unit\PC\Footsteps	
+	2486120673	drunk_snore			\Default Work Unit\NPC\drunk_snore	
+	2641340079	Reactions			\Default Work Unit\VO\Reactions	
+	2934549620	Open_Door			\Default Work Unit\Props\Open_Door	
+	3065830871	drunk_hit			\Default Work Unit\NPC\drunk_hit	
+	3177314091	Party			\Default Work Unit\Behind Doors\Party	
+	3615515681	My_Legs			\Default Work Unit\VO\Add_PC\My_Legs	
+	4049474665	_1st_Floor_Babka			\Default Work Unit\VO\_1st_Floor_Babka	
+	4135178078	Lamps			\Default Work Unit\Props\Lamps	
+	4188269641	Water_drops			\Default Work Unit\Ambience\Water_drops	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	482946207	GHDS			\Default Work Unit\PC\GHDS	
+	2439360821	Light_glitch			\Default Work Unit\Light_glitch	
+	2641340079	Reactions			\Default Work Unit\PC\Reactions	
+	3835786763	Near_Dogs			\Default Work Unit\Near_Dogs	
+	3940648127	isMoving			\Default Work Unit\PC\isMoving	
+
+Switch	ID	Name	Switch Group			Notes
+	1256202815	Play	GHDS			
+	2974103762	Mute	GHDS			
+	930712164	Off	Light_glitch			
+	1651971902	On	Light_glitch			
+	128041979	Home_floor	Reactions			
+	278887670	Garden	Reactions			
+	2743384229	Drunk	Reactions			
+	3181406844	Home	Reactions			
+	3354297748	Empty	Reactions			
+	3920460409	Disco	Reactions			
+	1133794587	Near	Near_Dogs			
+	1183803292	Far	Near_Dogs			
+	1071698383	_00_stop	isMoving			
+	1788549707	_01_move	isMoving			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3769334125	In_Buiding			\Default Work Unit\In_Buiding	
+
+State	ID	Name	State Group			Notes
+	645492555	Out	In_Buiding			
+	748895195	None	In_Buiding			
+	1752637612	In	In_Buiding			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	515789215	In	In_Buiding	\Actor-Mixer Hierarchy\Ambience\Outside		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	553004871	PC_Hight			\Default Work Unit\PC_Hight	
+	1110095543	Velocity_Magnitude			\Default Work Unit\PC\Velocity_Magnitude	
+	3835786763	Near_Dogs			\Default Work Unit\Near_Dogs	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	243379636	Reflect			\Default Work Unit\Master Audio Bus\Reflect	
+	278887670	Garden			\Default Work Unit\Master Audio Bus\Garden	
+	337909779	Party_Room			\Default Work Unit\Master Audio Bus\Party_Room	
+	1984446739	Room_Behind			\Default Work Unit\Master Audio Bus\Room_Behind	
+	2077253480	Room			\Default Work Unit\Master Audio Bus\Room	
+
+Effect plug-ins	ID	Name	Type				Notes
+	298047550	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
+	346397626	Wwise_Peak_Limiter_(Custom)	Wwise Peak Limiter			
+	454112885	Wwise_Convolution_Reverb_(Custom)	Wwise Convolution Reverb			
+	1034847628	Wwise_Reflect_(Custom)	Wwise Reflect			
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	348711112	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\PC\Footsteps\Footsteps\Silence\Wwise Silence	
+	625042198	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Props\Behind_Doors\Dogs\Silence\Wwise Silence	
+	935298730	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Props\Lamps\Silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	326941	Neon Lamp, Switch On, Hum by Kinoton Id-351430	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Lamps\Neon Lamp, Switch On, Hum by Kinoton Id-351430_EC917FFA.wem		\Actor-Mixer Hierarchy\Props\Lamps\Glitch\Neon Lamp, Switch On, Hum by Kinoton Id-351430		4701
+	4120085	My_Legs	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\My_Legs_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\additional\My_Legs		97492
+	30133102	Footsteps, Asphalt, Sneaker, Slow SND1005 7	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\Footsteps\Footsteps, Asphalt, Sneaker, Slow SND1005 7_31864922.wem		\Actor-Mixer Hierarchy\PC\Footsteps\Footsteps\Footsteps\Footsteps, Asphalt, Sneaker, Slow SND1005 7		4725
+	42629020	Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763 1	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763 1_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Garden\Garden\Birds\Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763 1		44903
+	75581377	Animal, Dogs, Barking, Small 2 SND14612 1	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Animal, Dogs, Barking, Small 2 SND14612 1_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Dogs\small1\Animal, Dogs, Barking, Small 2 SND14612 1		39096
+	85836980	Human, Snore, Male, Snoring 2 SND23448	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Snore\Human, Snore, Male, Snoring 2 SND23448_192378AB.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_snore\Human, Snore, Male, Snoring 2 SND23448		90917
+	117412151	Footsteps, Asphalt, Sneaker, Slow SND1005 5	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\Footsteps\Footsteps, Asphalt, Sneaker, Slow SND1005 5_7734F54B.wem		\Actor-Mixer Hierarchy\PC\Footsteps\Footsteps\Footsteps\Footsteps, Asphalt, Sneaker, Slow SND1005 5		3709
+	126817567	Footsteps, Asphalt, Sneaker, Slow SND1005 6	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\Footsteps\Footsteps, Asphalt, Sneaker, Slow SND1005 6_3E1CC7B5.wem		\Actor-Mixer Hierarchy\PC\Footsteps\Footsteps\Footsteps\Footsteps, Asphalt, Sneaker, Slow SND1005 6		3945
+	129349774	Add_3	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\Add_3_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\additional\GHDS\Ghds\Add_3		26737
+	169371246	4th_floor_garden	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\4th_floor_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\Reactions\4th_floor_garden		133873
+	170847467	Animal, Dogs, Barking, Small 2 SND14612	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Animal, Dogs, Barking, Small 2 SND14612_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Dogs\small1\Animal, Dogs, Barking, Small 2 SND14612		38818
+	177946613	Human, Snore, Man, Elderly, Snore SND23468 3	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Snore\Human, Snore, Man, Elderly, Snore SND23468 3_93EFB46A.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_snore\Human, Snore, Man, Elderly, Snore SND23468 3		108369
+	178399537	Human, Snore, Male, Snoring 2 SND23448 3	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Snore\Human, Snore, Male, Snoring 2 SND23448 3_064DDCBF.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_snore\Human, Snore, Male, Snoring 2 SND23448 3		137374
+	178920862	Animal, Dogs, Barking, Small 4 SND14610	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Animal, Dogs, Barking, Small 4 SND14610_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Dogs\small1\Animal, Dogs, Barking, Small 4 SND14610		42443
+	201254177	Footsteps, Asphalt, Male, Leather Sole, Walk SND11517	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\Footsteps\Footsteps, Asphalt, Male, Leather Sole, Walk SND11517_D4A74205.wem		\Actor-Mixer Hierarchy\PC\Footsteps\Footsteps\Footsteps\Footsteps, Asphalt, Male, Leather Sole, Walk SND11517		2555
+	235529795	Footsteps, Asphalt, Male, Leather Sole, Walk SND11517 1	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\Footsteps\Footsteps, Asphalt, Male, Leather Sole, Walk SND11517 1_7F6C9204.wem		\Actor-Mixer Hierarchy\PC\Footsteps\Footsteps\Footsteps\Footsteps, Asphalt, Male, Leather Sole, Walk SND11517 1		2163
+	254077505	Add_1	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\Add_1_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\additional\GHDS\Ghds\Add_1		19267
+	265532728	1st_floor_for_babla 2	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\1st_floor_for_babla 2_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\1st_floor_for_babla 2		58010
+	308784240	Padik_Door	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\My_1st_come_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\Padik_Door		128652
+	320220072	Animal, Dog, Golden Retriever, Barks, Whimper SND0582 4	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 4_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Dogs\big\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 4		19778
+	334549146	Animal, Dog, Golden Retriever, Barks, Whimper SND0582 1	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 1_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Dogs\big\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 1		26987
+	348820655	Trash Chute	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Props\Trash Chute by krb21 Id-118619_04AE73C9.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Trash Chute		51585
+	375857017	Neon Lamp, Switch On, Hum by Kinoton Id-351430 2	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Lamps\Neon Lamp, Switch On, Hum by Kinoton Id-351430 2_65BF32E5.wem		\Actor-Mixer Hierarchy\Props\Lamps\Glitch\Neon Lamp, Switch On, Hum by Kinoton Id-351430 2		5458
+	390428077	Human, Snore, Man, Elderly, Snore SND23468	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Snore\Human, Snore, Man, Elderly, Snore SND23468_E11FF52E.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_snore\Human, Snore, Man, Elderly, Snore SND23468		75208
+	394936479	Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 1	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Lamps\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 1_363368E9.wem		\Actor-Mixer Hierarchy\Props\Lamps\Glitch\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 1		2123
+	397223699	Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Dogs\smal2\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312		73654
+	428129825	Party	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Behin Doors\Like Dota game Robot 2020 10 28_6F0CDF74.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Party		3892064
+	431354892	Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 3	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 3_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Garden\Garden\Birds 2\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 3		31912
+	444669226	1st_Floor_Babka	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\1st_floor_babla_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\1st_Floor_Babka		58951
+	459328301	amb1	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Ambience, Urban, City, Light Traffic, Car Horn, Children, Walla, Distant Seagull SND4833_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Outside\Outside\amb1\amb1		234610
+	496370755	Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312 1	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312 1_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Dogs\smal2\Cartoon, Dog, Small, Growl, Chiwawa, Barks, Aggresive, Slobber, Click Tongue SND46312 1		95092
+	513142571	Human, Snore, Man, Elderly, Snore SND23468 1	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Snore\Human, Snore, Man, Elderly, Snore SND23468 1_56893D26.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_snore\Human, Snore, Man, Elderly, Snore SND23468 1		67032
+	514562875	Animal, Dog, Golden Retriever, Barks, Whimper SND0582 3	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 3_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Dogs\big\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 3		20347
+	520494821	Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 4	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 4_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Garden\Garden\Birds 2\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 4		46259
+	530473155	Room tone	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Ambience, Room Tone, Empty Office, Deep, Quiet, 5ch SND36285_6140A20C.wem		\Actor-Mixer Hierarchy\Ambience\Building\Panelka\Room Tone\Room tone		740145
+	546743345	Im_home	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\Im_home_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\Reactions\Im_home		39807
+	549266977	Ugh	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\Ugh_60B17840.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Ugh		4634
+	553634353	Man Waking Up From Sleep by khenshom Id-500801 2	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\Man Waking Up From Sleep by khenshom Id-500801 2_CB4E843A.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_hit\Man Waking Up From Sleep by khenshom Id-500801 2		25312
+	554946171	4th_floor_disco_akd	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\4th_floor_disco.akd_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\Reactions\4th_floor_disco_akd		128558
+	574197304	Animal, Dogs, Barking, Small 1 SND14613	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Animal, Dogs, Barking, Small 1 SND14613_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Dogs\small1\Animal, Dogs, Barking, Small 1 SND14613		16593
+	577455993	Man Waking Up From Sleep by khenshom Id-500801 3	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\Man Waking Up From Sleep by khenshom Id-500801 3_3DBD4B95.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_hit\Man Waking Up From Sleep by khenshom Id-500801 3		11754
+	592807539	Animal, Dog, Golden Retriever, Barks, Whimper SND0582 2	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 2_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Dogs\big\Animal, Dog, Golden Retriever, Barks, Whimper SND0582 2		10857
+	616854782	Ambience, Birdsong, Countryside, Birds Chirp, Flies, Distant Rumble SND5249	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Ambience, Birdsong, Countryside, Birds Chirp, Flies, Distant Rumble SND5249_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Garden\Garden\Birds\Ambience, Birdsong, Countryside, Birds Chirp, Flies, Distant Rumble SND5249		441125
+	626107758	5th_floor_door	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\5th_floor_door_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\Reactions\5th_floor_door		53847
+	653670653	Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Garden\Garden\Birds\Ambience, Tropics, Birds, Koel Crow Birds, Wings, Early Morning, Winter, India SND49763		81257
+	671575838	Human, Snore, Man, Elderly, Snore SND23468 2	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Snore\Human, Snore, Man, Elderly, Snore SND23468 2_BB159D57.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_snore\Human, Snore, Man, Elderly, Snore SND23468 2		136190
+	672154894	Human, Snore, Male, Snoring 2 SND23448 1	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Snore\Human, Snore, Male, Snoring 2 SND23448 1_DE803B2D.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_snore\Human, Snore, Male, Snoring 2 SND23448 1		136065
+	675698929	My_Bag	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\Add_4_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\additional\My_Bag		81700
+	685593506	Lamps - Designed - 04 - becquerel - aXL	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Lamps\Lamps - Designed - 04 - becquerel - aXL_F566245D.wem		\Actor-Mixer Hierarchy\Props\Lamps\Neon\Lamps - Designed - 04 - becquerel - aXL		354746
+	693806920	Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Lamps\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220_E03480D6.wem		\Actor-Mixer Hierarchy\Props\Lamps\Glitch\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220		2995
+	720250712	Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Garden\Garden\Birds 2\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835		30780
+	721930445	Weather, Wind, Gusts, Snow, Rustling, Howling 01 SND11623	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Weather, Wind, Gusts, Snow, Rustling, Howling 01 SND11623_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Garden\Garden\Wind\Weather, Wind, Gusts, Snow, Rustling, Howling 01 SND11623		792489
+	772920992	Man Waking Up From Sleep by khenshom Id-500801 4	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\Man Waking Up From Sleep by khenshom Id-500801 4_599F531A.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_hit\Man Waking Up From Sleep by khenshom Id-500801 4		12334
+	792908959	water Dripping	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\3DS02 Cave Stalactite Quiet Dripping 02 20 1_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Building\Water drops\water Dripping		312464
+	802170934	Man Waking Up From Sleep by khenshom Id-500801 1	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\Man Waking Up From Sleep by khenshom Id-500801 1_47171854.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_hit\Man Waking Up From Sleep by khenshom Id-500801 1		11210
+	803249482	Украина_ ни слова на русском_ Время покажет_ Фрагмент выпуска от 15_01_2021	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Украина_ ни слова на русском. Время покажет. Фрагмент выпуска от 15.01.2021_FB031D97.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\TV\Украина_ ни слова на русском_ Время покажет_ Фрагмент выпуска от 15_01_2021		1184706
+	804976568	Footsteps, Asphalt, Sneaker, Slow SND1005 3	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\Footsteps\Footsteps, Asphalt, Sneaker, Slow SND1005 3_61018B6D.wem		\Actor-Mixer Hierarchy\PC\Footsteps\Footsteps\Footsteps\Footsteps, Asphalt, Sneaker, Slow SND1005 3		4152
+	849449404	AMB TOWN Street Calm Afternoon Sparrows Traffic 2	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\AMB TOWN Street Calm Afternoon Sparrows Traffic 2_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Outside\Outside\birds1\AMB TOWN Street Calm Afternoon Sparrows Traffic 2		397623
+	856871517	Ambience, Summer, Night, Pyrenees Mountains, France, Crickets, Distant River, Horse Whinny At 37 Secs SND14314	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Ambience, Summer, Night, Pyrenees Mountains, France, Crickets, Distant River, Horse Whinny At 37 Secs SND14314_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Garden\Garden\Mountain\Ambience, Summer, Night, Pyrenees Mountains, France, Crickets, Distant River, Horse Whinny At 37 Secs SND14314		572582
+	880471884	Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 2	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 2_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Garden\Garden\Birds 2\Birds, Tropical, Laughing Falcon, 2 Birds, Cantan, Forest, Birds SND53835 2		23293
+	892620598	Open Door_01	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Props\Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033 1_ED8E0FC5.wem		\Actor-Mixer Hierarchy\Props\Door\Open Door_01		23758
+	902384614	Animal, Dog, Golden Retriever, Barks, Whimper SND0582	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Animal, Dog, Golden Retriever, Barks, Whimper SND0582_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Props\Behind_Doors\Dogs\big\Animal, Dog, Golden Retriever, Barks, Whimper SND0582		11549
+	904521671	Human, Snore, Male, Snoring 2 SND23448 2	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Snore\Human, Snore, Male, Snoring 2 SND23448 2_11E29896.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_snore\Human, Snore, Male, Snoring 2 SND23448 2		137545
+	904606069	Man Waking Up From Sleep by khenshom Id-500801	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\Man Waking Up From Sleep by khenshom Id-500801_FC3F266F.wem		\Actor-Mixer Hierarchy\PC\NPC_VO\Phrases\3rd_drunk_hit\Man Waking Up From Sleep by khenshom Id-500801		14558
+	915303527	Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 2	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Lamps\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 2_C3FFA419.wem		\Actor-Mixer Hierarchy\Props\Lamps\Glitch\Light Neon Dysfunction by keng-wai-chane-chick-te Id-422220 2		4783
+	917983684	My_Shadow	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\Add_5_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\additional\My_Shadow		118142
+	922632205	Neon Lamp, Switch On, Hum by Kinoton Id-351430 3	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Lamps\Neon Lamp, Switch On, Hum by Kinoton Id-351430 3_921E4F26.wem		\Actor-Mixer Hierarchy\Props\Lamps\Glitch\Neon Lamp, Switch On, Hum by Kinoton Id-351430 3		2171
+	960527516	Ambience, Birdsong, Countryside, Birds Chirp, Seagulls, Day 1 SND5256	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Ambience, Birdsong, Countryside, Birds Chirp, Seagulls, Day 1 SND5256_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Garden\Garden\Birds 2\Ambience, Birdsong, Countryside, Birds Chirp, Seagulls, Day 1 SND5256		93166
+	967829851	Open Door	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Props\Door, Wood, Old, Creaks, Open, Close, Slam Shut SND3033_A57287CF.wem		\Actor-Mixer Hierarchy\Props\Door\Open Door		20149
+	968214745	1st_Floor_for_Babka	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\1st_floor_for_babla_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\1st_Floor_for_Babka		51878
+	989584623	Add_2	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\Add_2_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\additional\GHDS\Ghds\Add_2		22106
+	1005323564	Footsteps, Asphalt, Sneaker, Slow SND1005 4	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\Footsteps\Footsteps, Asphalt, Sneaker, Slow SND1005 4_9191C79F.wem		\Actor-Mixer Hierarchy\PC\Footsteps\Footsteps\Footsteps\Footsteps, Asphalt, Sneaker, Slow SND1005 4		2315
+	1009158401	Ambience, City Park, Distant Traffic, Voices, Birds Chirping-AmbiX	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Ambience, City Park, Distant Traffic, Voices, Birds Chirping-AmbiX_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Outside\Outside\birds2\Ambience, City Park, Distant Traffic, Voices, Birds Chirping-AmbiX		381060
+	1011334266	Footsteps, Asphalt, Sneaker, Slow SND1005 8	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\Footsteps\Footsteps, Asphalt, Sneaker, Slow SND1005 8_7F2A080B.wem		\Actor-Mixer Hierarchy\PC\Footsteps\Footsteps\Footsteps\Footsteps, Asphalt, Sneaker, Slow SND1005 8		2198
+	1012963946	Neon Lamp, Switch On, Hum by Kinoton Id-351430 4	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Lamps\Neon Lamp, Switch On, Hum by Kinoton Id-351430 4_400302C5.wem		\Actor-Mixer Hierarchy\Props\Lamps\Glitch\Neon Lamp, Switch On, Hum by Kinoton Id-351430 4		1924
+	1023224642	Ambience, City, Medium Traffic, Car Pass, Tram 1 SND0141	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\Ambience\Ambience, City, Medium Traffic, Car Pass, Tram 1 SND0141_0C3FDCAA.wem		\Actor-Mixer Hierarchy\Ambience\Outside\Outside\amb2\Ambience, City, Medium Traffic, Car Pass, Tram 1 SND0141		166404
+	1024965854	3rd_floor_drunk_reaction	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\SFX\PC\VO\3rd_floor_0C3FDCAA.wem		\Actor-Mixer Hierarchy\PC\PC_VO\Phrases\Reactions\3rd_floor_drunk_reaction		145769
+
+Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
+	614701443	Wwise_Convolution_Reverb_(Custom)	H:\learn unity\Rav3 TZ\sound-designer-test-template-main\RAV3_WwiseProject\.cache\Mac\Plugins\Wwise Convolution Reverb\Mountains, Field, Few Houses 50m_0A7A2C0D.wem	Wwise Convolution Reverb (Custom)	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Garden\Wwise_Convolution_Reverb_(Custom)		1640576
+

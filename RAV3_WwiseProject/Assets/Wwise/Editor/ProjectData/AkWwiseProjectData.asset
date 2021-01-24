@@ -1,0 +1,965 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 251c7d10881f8c5459ab031d7ca28b14, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: eed3c7b318a2ee488fb510417478d7c4
+    GuidInternal: 
+    m_lastTime: -8585925130053022648
+    List: []
+  - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
+    PathAndIcons:
+    - ElementName: Factory Reflect Acoustic Textures
+      ObjectType: 12
+    ParentPath: Factory Reflect Acoustic Textures
+    guid: 6b663d46a83ca54f8b4a5fef12b883f6
+    GuidInternal: 
+    m_lastTime: -8585907836620782417
+    List:
+    - name: Acoustic_Banner
+      guid: f2532d2fccda8e408b8898b1b52a26d6
+      id: 4168643977
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Acoustic_Banner
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Acoustic_Banner
+    - name: Anechoic
+      guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      id: 1873957695
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Anechoic
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Anechoic
+    - name: Brick
+      guid: a9a586b004f2534ca838bdb18b18f6d6
+      id: 504532776
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Brick
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Brick
+    - name: Carpet
+      guid: 8975223456dc604296c4b9f4b669092b
+      id: 2412606308
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Carpet
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Carpet
+    - name: Concrete
+      guid: 001cf85c9628e04aaf7c3080bdaba682
+      id: 841620460
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Concrete
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Concrete
+    - name: Cork_Tiles
+      guid: 19c9d2305f92434189063dbb3c4ae5e2
+      id: 3195498748
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Cork_Tiles
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Cork_Tiles
+    - name: Curtains
+      guid: 339ee6f8975c6849b508a1535f2d66e8
+      id: 2928161104
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Curtains
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Curtains
+    - name: Drywall
+      guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      id: 3670307564
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Drywall
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Drywall
+    - name: Fabric
+      guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      id: 1970351858
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Fabric
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Fabric
+    - name: Ground
+      guid: 1cc318282c715a4a9042737764ea6aeb
+      id: 2528658256
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Ground
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Ground
+    - name: Mountain
+      guid: 313793c51a00b44a98dd9b033a8c8eab
+      id: 513139656
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Mountain
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Mountain
+    - name: Textures
+      guid: a3121e7828e3df4a8bba5fb89c74031d
+      id: 1276632493
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      Path: Factory Reflect Acoustic Textures\Textures
+    - name: Tile
+      guid: c4da82a82a13b747ba9db9907ba29cc0
+      id: 2637588553
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Tile
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Tile
+    - name: Wood
+      guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      id: 2058049674
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood
+    - name: Wood_Bright
+      guid: e5d1857ba2c1634e9a13cec54b641adc
+      id: 4262522749
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Bright
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Bright
+    - name: Wood_Deep
+      guid: 8e474652dac50c4ea0dec98d1479529a
+      id: 1755085759
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Deep
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Deep
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 3d61ae7e27362e44806674aac05e251c
+    GuidInternal: 
+    m_lastTime: -8585901037931044728
+    List:
+    - name: Garden
+      guid: d33dcae50ba2d94a911623e894c2a99d
+      id: 278887670
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Garden
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Garden
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+    - name: Party_Room
+      guid: cff030eddb940e4d99a82c4a6aea0914
+      id: 337909779
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Party_Room
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Party_Room
+    - name: Reflect
+      guid: 20485de5cea821468234db1bb7ffe8d9
+      id: 243379636
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Reflect
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Reflect
+    - name: Room
+      guid: d87f6f0766890143ad53d7f54c2186df
+      id: 2077253480
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Room
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Room
+    - name: Room_Behind
+      guid: 3727192861ba204ea01c0fca69064fa9
+      id: 1984446739
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Room_Behind
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Room_Behind
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 27a0c420513b2248b06e6c1ee598e788
+    GuidInternal: 
+    m_lastTime: -8585902933134326164
+    List:
+    - name: Master
+      guid: 662363e6f30f4d4b93774b1374eaf91d
+      id: 4056684167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master
+        ObjectType: 7
+      Path: Default Work Unit\Master
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 03aa0b16e3c0b448bf439c814a94eccb
+    GuidInternal: 
+    m_lastTime: -8585901009925621589
+    List:
+    - name: _1st_Floor_Babka
+      guid: 56a3f798d9f19646aec0414a4d842f33
+      id: 4049474665
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: _1st_Floor_Babka
+        ObjectType: 3
+      Path: Default Work Unit\VO\_1st_Floor_Babka
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Add_PC
+      guid: d522f4440d9b104eb9814f326f21b77c
+      id: 3053411230
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: Add_PC
+        ObjectType: 4
+      Path: Default Work Unit\VO\Add_PC
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ambience
+      guid: 2bfb8fce3a677c419accbca71b95456d
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
+      Path: Default Work Unit\Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Behind Doors
+      guid: 2afc8e79e0895d468aa80b32ac8f7c20
+      id: 867330358
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Behind Doors
+        ObjectType: 4
+      Path: Default Work Unit\Behind Doors
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dogs
+      guid: 92d3d8556da41f458cda9de09507221d
+      id: 2012068516
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Behind Doors
+        ObjectType: 4
+      - ElementName: Dogs
+        ObjectType: 3
+      Path: Default Work Unit\Behind Doors\Dogs
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: drunk_hit
+      guid: 00d802888902524ea65aa154d8568508
+      id: 3065830871
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: NPC
+        ObjectType: 4
+      - ElementName: drunk_hit
+        ObjectType: 3
+      Path: Default Work Unit\NPC\drunk_hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: drunk_snore
+      guid: 2764dbb1b376664987a985f69129178f
+      id: 2486120673
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: NPC
+        ObjectType: 4
+      - ElementName: drunk_snore
+        ObjectType: 3
+      Path: Default Work Unit\NPC\drunk_snore
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Footsteps
+      guid: 299b6cf143b44f43b6cef46e07842f2c
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PC
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\PC\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Garden
+      guid: 1302350bbb87f14e9092a7196f86e5e1
+      id: 278887670
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: Garden
+        ObjectType: 3
+      Path: Default Work Unit\Ambience\Garden
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GHDS
+      guid: 147adb1b8f9561418808eca8b2dfd5f4
+      id: 482946207
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: Add_PC
+        ObjectType: 4
+      - ElementName: GHDS
+        ObjectType: 3
+      Path: Default Work Unit\VO\Add_PC\GHDS
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Lamps
+      guid: cdc2ee1ad778194f9b80ed722340de81
+      id: 4135178078
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Props
+        ObjectType: 4
+      - ElementName: Lamps
+        ObjectType: 3
+      Path: Default Work Unit\Props\Lamps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: My_Legs
+      guid: d7d9b83f17803642967c77b6e890ebce
+      id: 3615515681
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: Add_PC
+        ObjectType: 4
+      - ElementName: My_Legs
+        ObjectType: 3
+      Path: Default Work Unit\VO\Add_PC\My_Legs
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: My_Shadow
+      guid: ca07b1e972af184ca7286fec5263bae5
+      id: 329753858
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: Add_PC
+        ObjectType: 4
+      - ElementName: My_Shadow
+        ObjectType: 3
+      Path: Default Work Unit\VO\Add_PC\My_Shadow
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: NPC
+      guid: 29e47e139845644c9d3cc16863a3b2cd
+      id: 662417162
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: NPC
+        ObjectType: 4
+      Path: Default Work Unit\NPC
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Open_Door
+      guid: 721f51335939cd4abb566f1bc092c5ce
+      id: 2934549620
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Props
+        ObjectType: 4
+      - ElementName: Open_Door
+        ObjectType: 3
+      Path: Default Work Unit\Props\Open_Door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Outside
+      guid: b0d863c6f0a267468a8e16b1a28151c5
+      id: 438105790
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: Outside
+        ObjectType: 3
+      Path: Default Work Unit\Ambience\Outside
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Panelka
+      guid: 9500e8a5117b5a48b51824a88c41b08d
+      id: 514669061
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: Panelka
+        ObjectType: 3
+      Path: Default Work Unit\Ambience\Panelka
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Party
+      guid: 4009a935940dac4290f91f88beb5030f
+      id: 3177314091
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Behind Doors
+        ObjectType: 4
+      - ElementName: Party
+        ObjectType: 3
+      Path: Default Work Unit\Behind Doors\Party
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PC
+      guid: fdb2feebf231094c8781df4d2b39d1c8
+      id: 1635194334
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PC
+        ObjectType: 4
+      Path: Default Work Unit\PC
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PC_Ugh
+      guid: 1b90699b80397d4bba490d920eb2edda
+      id: 1140011315
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PC
+        ObjectType: 4
+      - ElementName: PC_Ugh
+        ObjectType: 3
+      Path: Default Work Unit\PC\PC_Ugh
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Props
+      guid: 0edc93fed0d67f40bb01acb472411708
+      id: 968010305
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Props
+        ObjectType: 4
+      Path: Default Work Unit\Props
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Reactions
+      guid: 67f512c611e86e4f93ce3e1028033a49
+      id: 2641340079
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: Reactions
+        ObjectType: 3
+      Path: Default Work Unit\VO\Reactions
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Start
+      guid: 0aea3c53e4bbf4499f383043e1831416
+      id: 1281810935
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Start
+        ObjectType: 3
+      Path: Default Work Unit\Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Trash_Chute
+      guid: 82030a200d7a6747bb198a57c99f93a8
+      id: 1863734011
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Behind Doors
+        ObjectType: 4
+      - ElementName: Trash_Chute
+        ObjectType: 3
+      Path: Default Work Unit\Behind Doors\Trash_Chute
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: TV
+      guid: c9b75c6665aee5429f7380cf51c9b6c2
+      id: 1568083719
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Behind Doors
+        ObjectType: 4
+      - ElementName: TV
+        ObjectType: 3
+      Path: Default Work Unit\Behind Doors\TV
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO
+      guid: 2ba2c2c3321f9945882ba573e62274af
+      id: 1534528548
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VO
+        ObjectType: 4
+      Path: Default Work Unit\VO
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Water_drops
+      guid: 9242b8c47dbd6e4585478ce2ec8813a6
+      id: 4188269641
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 4
+      - ElementName: Water_drops
+        ObjectType: 3
+      Path: Default Work Unit\Ambience\Water_drops
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 230416aa804e7d4587b87f14c02546ae
+    GuidInternal: 
+    m_lastTime: -8585902624363496447
+    List:
+    - name: Near_Dogs
+      guid: b52f0ea092b8c24389430cd6555f0f6e
+      id: 3835786763
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Near_Dogs
+        ObjectType: 13
+      Path: Default Work Unit\Near_Dogs
+    - name: PC
+      guid: fe6b20bf18abf24d9cd631e184c90a67
+      id: 1635194334
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PC
+        ObjectType: 4
+      Path: Default Work Unit\PC
+    - name: PC_Hight
+      guid: c2b9fb5fbe67c44eb645cce4b2a4f125
+      id: 553004871
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PC_Hight
+        ObjectType: 13
+      Path: Default Work Unit\PC_Hight
+    - name: Velocity_Magnitude
+      guid: fa1622b2a36d5342aaf9489681ffa5bd
+      id: 1110095543
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PC
+        ObjectType: 4
+      - ElementName: Velocity_Magnitude
+        ObjectType: 13
+      Path: Default Work Unit\PC\Velocity_Magnitude
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 32da06f883b5224e8a8745472494e1e4
+    GuidInternal: 
+    m_lastTime: -8585901243175392394
+    List:
+    - name: In_Buiding
+      guid: 9dd62f88f1800d4ab133e3eef2fc6030
+      id: 3769334125
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: In_Buiding
+        ObjectType: 9
+      Path: Default Work Unit\In_Buiding
+      values:
+      - name: In
+        guid: 8cd9ea74ad38e747abb164cb8a66a99d
+        id: 1752637612
+        PathAndIcons:
+        - ElementName: In
+          ObjectType: 8
+      - name: None
+        guid: bd112409b406534a93dd7be78ba3767d
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Out
+        guid: 0fda5fbaaca5d64f82615baf70567167
+        id: 645492555
+        PathAndIcons:
+        - ElementName: Out
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c3cbed946ad7fa46abee29f9b2ac4041
+    GuidInternal: 
+    m_lastTime: -8585901255084606196
+    List:
+    - name: GHDS
+      guid: 97de2348eb24cf4fa9ca61ea804f120b
+      id: 482946207
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PC
+        ObjectType: 4
+      - ElementName: GHDS
+        ObjectType: 11
+      Path: Default Work Unit\PC\GHDS
+      values:
+      - name: Mute
+        guid: 46e7326c8f6eff4caed8844b61d36f08
+        id: 2974103762
+        PathAndIcons:
+        - ElementName: Mute
+          ObjectType: 10
+      - name: Play
+        guid: 71add0097acfdd4daf43cb25953237a4
+        id: 1256202815
+        PathAndIcons:
+        - ElementName: Play
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: isMoving
+      guid: a02271776113ab4fb9d89d74801d502f
+      id: 3940648127
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PC
+        ObjectType: 4
+      - ElementName: isMoving
+        ObjectType: 11
+      Path: Default Work Unit\PC\isMoving
+      values:
+      - name: _00_stop
+        guid: 4fe59952c4cefc47bde36df6bb7c90d4
+        id: 1071698383
+        PathAndIcons:
+        - ElementName: _00_stop
+          ObjectType: 10
+      - name: _01_move
+        guid: 047753360f063e4b8b8187b24cb9e5e8
+        id: 1788549707
+        PathAndIcons:
+        - ElementName: _01_move
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Light_glitch
+      guid: d46aa81ea3dbff49bb9f3e123db12fbb
+      id: 2439360821
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Light_glitch
+        ObjectType: 11
+      Path: Default Work Unit\Light_glitch
+      values:
+      - name: Off
+        guid: c2e769c663d1544d8ccd9cf757790c33
+        id: 930712164
+        PathAndIcons:
+        - ElementName: Off
+          ObjectType: 10
+      - name: On
+        guid: 06108ec618d75e44bc182a54a8cd22d3
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: On
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Near_Dogs
+      guid: 9a9faf247d59554c818fdf8c949e8daf
+      id: 3835786763
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Near_Dogs
+        ObjectType: 11
+      Path: Default Work Unit\Near_Dogs
+      values:
+      - name: Far
+        guid: 0d90e80c543b3344a56c81256c443da6
+        id: 1183803292
+        PathAndIcons:
+        - ElementName: Far
+          ObjectType: 10
+      - name: Near
+        guid: b0e35e446fb81240b9a6b0fb343c6e3e
+        id: 1133794587
+        PathAndIcons:
+        - ElementName: Near
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: PC
+      guid: e57c3ea01c0e69468d1b7f9692503990
+      id: 1635194334
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PC
+        ObjectType: 4
+      Path: Default Work Unit\PC
+      values: []
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Reactions
+      guid: 871f6e402874e747ae29066f8d40418a
+      id: 2641340079
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PC
+        ObjectType: 4
+      - ElementName: Reactions
+        ObjectType: 11
+      Path: Default Work Unit\PC\Reactions
+      values:
+      - name: Disco
+        guid: 314c22eca8bf54489c41d1ee54188ebd
+        id: 3920460409
+        PathAndIcons:
+        - ElementName: Disco
+          ObjectType: 10
+      - name: Drunk
+        guid: f657d826a29c3742a91f6ef60b79fbff
+        id: 2743384229
+        PathAndIcons:
+        - ElementName: Drunk
+          ObjectType: 10
+      - name: Empty
+        guid: 89c3179207e95445a246c7ec072c06f9
+        id: 3354297748
+        PathAndIcons:
+        - ElementName: Empty
+          ObjectType: 10
+      - name: Garden
+        guid: beb709f1a51fc643a9d592363721d64e
+        id: 278887670
+        PathAndIcons:
+        - ElementName: Garden
+          ObjectType: 10
+      - name: Home
+        guid: d0eaa037c7710146913e7909bd982ed2
+        id: 3181406844
+        PathAndIcons:
+        - ElementName: Home
+          ObjectType: 10
+      - name: Home_floor
+        guid: af1c7bae35c8c64082c7d066fc96c95e
+        id: 128041979
+        PathAndIcons:
+        - ElementName: Home_floor
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 8c9caada50624b4b8d7f91b8e64875e5
+    GuidInternal: 
+    m_lastTime: -8585903475914306995
+    List: []
+  ExpandedItems:
+  - /RAV3_WwiseProject
+  - /RAV3_WwiseProject/Events
+  - /RAV3_WwiseProject/Events/Default Work Unit
+  - /RAV3_WwiseProject/Events/Default Work Unit/Props
+  - /RAV3_WwiseProject/Events/Default Work Unit/VO
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
